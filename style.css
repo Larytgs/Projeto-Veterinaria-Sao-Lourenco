@@ -38,21 +38,24 @@ header #logo img{
     margin-left: 30px;
     margin-top: 5px;
 }
-header #titulos{
-    display: flex;
+
+header .menu .menu-opcao {
+    display: inline-block;
 }
-header #titulos a{
+.effect {
+    transition: .5s;
+}
+header .menu a{
     text-decoration: none;
-}
-header #titulos h1{
     font: 600 1.4em var(--titulos);
     color: black;
     margin-top: 30px;
     margin-right: 40px;
 }
-header #titulos h1:hover{
+header .menu a:hover{
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.795);
 }
+
 header .sociais img{
     width: 35px; height: 35px;
     margin-top: 30px;
@@ -123,10 +126,10 @@ main #serviços p{
 
 
 main #texto2{
-    padding: 20px 50px 20px 50px;
     margin: 10px;
     background-color: #62C87B;
     border-radius: 10px;
+    padding: 20px 50px 20px 50px;
 }
 main #texto2{
     display: block;
@@ -148,7 +151,7 @@ main #texto2 p{
 
 
 main #texto3{
-    padding: 30px 40px;
+    padding: 50px 40px;
 }
 main #texto3 h1{
     font: 600 1.4em var(--titulos);
@@ -178,10 +181,10 @@ main #saude p{
 
 
 main #texto4{
-    padding: 20px 50px 20px 50px;
     margin: 10px;
     background-color: #62C87B;
     border-radius: 10px;
+    padding: 20px 50px 20px 50px;
 }
 main #texto4 h1{
     font: 600 1.4em var(--titulos);
@@ -208,7 +211,7 @@ main #cuidados p{
 
 
 main #texto5{
-    padding: 30px 50px;
+    padding: 50px 50px;
 }
 main #texto5 h1{
     font: 600 1.4em var(--titulos);
@@ -234,10 +237,10 @@ main #texto5 p{
 
 
 main #texto6{
-    padding: 20px 50px 20px 50px;
     margin: 10px;
     background-color: #62C87B;
     border-radius: 10px;
+    padding: 20px 50px 20px 50px;
 }
 main #texto6 h1{
     font: 600 1.4em var(--titulos);
@@ -272,11 +275,12 @@ aside{
 aside #contatos{
     display: flex;
     justify-content: space-between;
+    padding: 30px 80px 20px 50px;
 }
 aside #contatos #logo img{
     width: 110px; height: 110px;
     margin-top: 40%;
-    margin-left: 160%;
+    margin-left: 140%;
 }
 
 aside #contatos .unidades{
@@ -302,7 +306,7 @@ aside #contatos .unidades img{
 }
 
 aside #contatos .sociais{
-    margin-right: 11px;
+    margin-right: 90px;
     margin-top: 60px;
 }
 aside #contatos .sociais h1{
@@ -318,14 +322,25 @@ aside #contatos .sociais a{
 }
 
 
-#scroll-top{
-    position: static;
-    margin-right: 1%;
-    text-align: right;
+.scroll-top {
+    position: fixed;
+    bottom: 35px;
+    right: 30px;
+}
+#botao-top {
     cursor: pointer;
 }
-
-
+/*.scroll-top.on {
+    bottom: 44px;
+    opacity: 1;
+    visibility: visible;
+}
+.scroll-top.off {
+    bottom: 44px;
+    opacity: 0;
+    visibility: hidden;
+}
+*/
 
 
 footer{
