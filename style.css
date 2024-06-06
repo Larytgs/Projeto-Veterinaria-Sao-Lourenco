@@ -15,7 +15,7 @@
 }
 
 body{
-    background-image: linear-gradient(to top, #025B18, #1F8F3B, #51C26D, #98F5AF);
+    background-image: linear-gradient(to top, #025B18, #1F8F3B, #62C87B, #98F5AF);
     margin: 0px;
 
     scroll-behavior: smooth;
@@ -24,7 +24,7 @@ body{
 header{
     position: sticky; /*grudavel*/
     top: -1px;
-    background-color: #62C87B;
+    background-color: #98F5AF;
     padding: 5px;
     height: 150%;
     box-shadow: 0px 0px 10px black;
@@ -268,7 +268,7 @@ main #carteirinha img{
 
 
 aside{
-    background-color: #b2f1c2;
+    background-color: #98F5AF;
     padding-bottom: 30px;  
 
 }
@@ -345,10 +345,10 @@ aside #contatos .sociais a{
 
 footer{
     padding: 10px;
-    background-color: #025B18;
+    background-color: #62C87B;
 }
 footer p{
     font: 100 0.9em var(--paragrafos);
     text-align: center;
-    color: white;
+    color: black;
 }

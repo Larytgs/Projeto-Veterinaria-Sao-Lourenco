@@ -1,0 +1,262 @@
+@charset "UTF8";
+
+@font-face {
+    font-family: 'elegante';
+    src: url(fonts/Elegante\ Classica.ttf) format(truetype);
+}
+
+:root{
+    --titulos: 'elegante', Times, serif;
+    --paragrafos: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to top, #025B18, #1F8F3B, #62C87B, #98F5AF);
+    margin: 0px;
+
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #98F5AF;
+    padding: 5px;
+    height: 150%;
+    box-shadow: 0px 0px 10px black;
+
+    display: block;
+}
+header #principal{
+    position: sticky; /*grudavel*/
+    top: -1px;
+    display: flex;
+    justify-content: space-between;
+}
+header #principal #logo img{
+    width: 95px; height: 95px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+header #principal .menu .menu-opcao {
+    display: inline-block;
+}
+#principal .effect {
+    transition: .5s;
+}
+header #principal .menu a{
+    text-decoration: none;
+    font: 600 1.4em var(--titulos);
+    color: black;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+header #principal .menu a:hover{
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.795);
+}
+
+header #principal .sociais img{
+    width: 35px; height: 35px;
+    margin-top: 30px;
+}
+
+
+header #primeiraimagem{
+    position: relative;
+    text-align: center;
+}
+header #primeiraimagem img{
+    width: 80%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+header #primeiraimagem h1{
+    position: absolute;
+    font: 100 1.4em var(--titulos);
+    text-align: left;
+    color: #98F5AF;
+    left: 180px;
+    top: 115px;
+}
+
+header #primeiraimagem #home{ /*Esse é do site blog-pets*/
+    position: absolute;
+    font: 100 1em var(--titulos);
+    color: black;
+    left: 160px;
+    top: 255px;
+}
+header #primeiraimagem #opc1{ /*Esse é dos proximos blogs*/
+    position: absolute;
+    font: 100 1em var(--titulos);
+    color: black;
+    left: 160px;
+    top: 255px;
+}
+header #primeiraimagem #opc2{ /*Esse é dos proximos blogs*/
+    position: absolute;
+    font: 100 1em var(--titulos);
+    color: black;
+    left: 250px;
+    top: 255px;
+}
+
+
+main{
+    margin: 0px 50px;
+    border: 1px solid black;
+    padding: 3px;
+    background-color: white;
+
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main #blogTextos{             /*Esse é do site blog-pets*/
+    display: flex;
+}
+main #texto{      
+    width: 450px;
+    margin: 15px;
+    padding: 10px;
+    background-color: #62C87B;
+    border-radius: 20px 1px 40px 1px;
+}
+main #foto{
+    width: 450px;
+    border-radius: 10px 1px 10px 1px;
+}
+main #texto h1{
+    font: 100 1.4em var(--titulos);
+    padding: 5px;
+}
+main #texto p{
+    font: 100 1.1em var(--paragrafos);
+    padding: 10px;
+}
+main #texto a{
+    text-decoration: none;
+    color: #025B18;
+    font: 600 1.2em var(--paragrafos);
+    padding: 10px;
+}
+main #texto #seta{
+    display: inline;
+    width: 20px;
+}
+
+
+main #textos{             /*Esse é dos proximos blogs (FIXO)*/
+    margin: 10px;
+    background-color: #62C87B;
+    border-radius: 10px;
+    padding: 30px 50px 30px 50px;
+}
+main #textos img{
+    width: 100%;
+    border-radius: 10px;
+}
+main #textos h1{
+    font: 100 1.4em var(--titulos);
+    padding: 10px;
+    padding-top: 20px;
+}
+main #textos p{
+    font: 100 1em var(--paragrafos);
+    padding: 10px;
+    text-align: left;
+}
+
+
+aside{
+    background-color: #98F5AF;
+    padding-bottom: 30px;  
+
+}
+aside #contatos{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px 20px 50px;
+}
+aside #contatos #logo img{
+    width: 110px; height: 110px;
+    margin-top: 40%;
+    margin-left: 140%;
+}
+
+aside #contatos .unidades{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+aside #contatos .unidades h1{
+    font: 600 1.1em var(--titulos);
+    padding-bottom: 10px;
+    text-align: center;
+}
+aside #contatos .unidades p{
+    font: 100 0.8em var(--paragrafos);
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+}
+aside #contatos .unidades img{
+    width: 25px; height: 25px;
+}
+
+aside #contatos .sociais{
+    margin-right: 90px;
+    margin-top: 60px;
+}
+aside #contatos .sociais h1{
+    font: 600 1em var(--titulos);
+    margin-left: -20px;
+}
+aside #contatos .sociais img{
+    width: 35px; height: 35px;
+    margin-top: 10px;
+}
+aside #contatos .sociais a{
+    display: inline-flex;
+}
+
+
+.scroll-top {
+    position: fixed;
+    bottom: 35px;
+    right: 30px;
+}
+#botao-top {
+    cursor: pointer;
+}
+/*.scroll-top.on {
+    bottom: 44px;
+    opacity: 1;
+    visibility: visible;
+}
+.scroll-top.off {
+    bottom: 44px;
+    opacity: 0;
+    visibility: hidden;
+}
+*/
+
+
+footer{
+    padding: 10px;
+    background-color: #62C87B;
+}
+footer p{
+    font: 100 0.9em var(--paragrafos);
+    text-align: center;
+    color: black;
+}
