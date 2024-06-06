@@ -130,7 +130,7 @@ main #texto{
     border-radius: 20px 1px 40px 1px;
 }
 main #foto{
-    width: 450px;
+    width: 450px; height: 250px;
     border-radius: 10px 1px 10px 1px;
 }
 main #texto h1{
