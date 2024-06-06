@@ -119,7 +119,7 @@ main{
     border-bottom-right-radius: 10px;
 }
 
-main #blogTextos{             /*Esse é do site blog-pets*/
+main .blogTextos{             /*Esse é do site blog-pets*/
     display: flex;
 }
 main #texto{      
