@@ -208,7 +208,7 @@ main #cuidados img{
 main #texto4 #cuidados h1{
     font: 600 1.1em 'elegante', Times, serif;
     padding-top: 10px;
-    text-align: center;
+    text-align: left;
 }
 main #cuidados p{
     font: 100 1em var(--paragrafos);
