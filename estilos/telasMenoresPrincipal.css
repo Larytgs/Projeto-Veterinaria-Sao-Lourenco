@@ -154,7 +154,7 @@
 
 }
 
-@media all and (min-width: 500px) and (max-width: 799px) { /*para tablets pqnos*/
+@media all and (min-width: 530px) and (max-width: 799px) { /*para tablets pqnos*/
 
     body{
         overflow-x: hidden;
@@ -178,14 +178,189 @@
         margin-right: 20px;
     }
 
+    main #texto1{
+        margin: -5% -5% 0% -18%;
+        border-radius: 10px;
+    }
+    main .unidades div{
+        padding: 10px 2px;
+        margin: 5px;
+    }
+    main .unidades img{
+        width: 20px;
+    }
+    main .unidades h1{
+        font: 600 1.1em var(--titulos);
+    }
+    main .unidades p{
+        font: 100 0.8em var(--paragrafos);
+        width: 220px;
+        padding: 5px;
+    }
+    main #serviços div{
+        padding: 10px 2px;
+        margin: 5px;
+    }
+    main #serviços h1{
+        font: 600 1.1em var(--titulos);
+    }
+    main #serviços p{
+        font: 100 0.8em var(--paragrafos);
+        width: 220px;
+        padding: 5px;
+    }
     
+    
+    main #texto2{
+        padding: 5px 20px 10px;
+    }
+    main #texto2-1 img{
+        width: 120px; 
+    }
+    main #texto2-1 h1{
+        font: 600 1.1em var(--titulos);
+    }
+    main #texto2-1 p{
+        font: 100 0.9em var(--paragrafos);
+        width: 220px;
+        padding-top: 20px;
+    }
 
+    main #texto3{
+        padding: 20px 40px;
+    }
+    main #texto3 h1{
+        font: 600 1.3em var(--titulos);
+    }
+    main #saude{
+        display: block;
+        padding: 20px 50px 10px 50px;
+    }
+    main #saude img{
+        width: 140px;
+    }
+    main #saude h1{
+        font: 600 1.1em var(--titulos);
+        padding-top: 10px;
+        text-align: center;
+    }
+    main #saude p{
+        font: 100 0.9em var(--paragrafos);
+        width: 400px;
+        margin: 0px -25px;
+    }
 
+    main #texto4{
+        padding: 5px 20px 10px;
+    }
+    main #texto4 h1{
+        font: 600 1.3em var(--titulos);
+        padding-top: 10px;
+    }
+    main #cuidados{
+        width: 450px;
+    }
+    main #cuidados img{
+        width: 120px;
+    }
+    main #cuidados h1{
+        font: 600 1.1em var(--titulos);
+    }
+    main #cuidados p{
+        font: 100 0.9em var(--paragrafos);
+        width: 220px;
+        padding-top: 20px;
+    }
 
+    main #texto5{
+        padding: 30px 0px;
+    }
+    main #texto5 h1{
+        font: 600 1.3em var(--titulos);
+    }
+    main #especialistas{
+        margin: 10px;
+        padding: 20px;
+    }
+    main #texto5 #especialistas p{
+        width: 200px;
+        margin-left: -5%;
+    }
+    main #texto5 #especialistas ul{
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+    main #texto5 p{
+        font: 100 0.9em var(--paragrafos);
+        padding: 0px 30px;
+    }
+    main #texto5 #p2{
+        padding: 10px;
+        margin-left: 20px;
+        width: 450px;
+    }
+
+    main #texto6{
+        padding: 5px 20px 10px;
+    }
+    main #texto6 h1{
+        font: 600 1.3em var(--titulos);
+        padding-top: 10px;
+    }
+    main #carteirinha p{
+        font: 100 0.9em var(--paragrafos);
+        width: 250px;
+        padding-top: 10%;
+        padding-left: 2%;
+        text-align: left;
+    }
+    main #carteirinha img{
+        width: 140px; 
+        margin-right: -10%;
+    }
+
+    aside{
+        margin-bottom: -5%;
+    }
+    aside #contatos{
+        display: block;
+    }
+    aside #contatos #logo img{
+        display: none;
+    }
+    aside #contatos .unidades{
+        margin-top: 2%;
+        margin-left: -15%;
+    }    
+    aside #contatos .unidades h1{
+        font: 600 1em var(--titulos);
+        padding-bottom: 10px;
+    }
+    aside #contatos .unidades p{
+        width: 250px;
+        padding: 5px;
+        text-align: center;
+    }
+    aside #contatos .sociais{
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 40%;
+    }
+    aside #contatos .sociais h1{
+        display: none;
+    }
+    aside #contatos .sociais img{
+        width: 30px; height: 30px;
+        margin-top: 0px;
+    }
+
+    .scroll-top {
+        right: 10px;
+    }
 
 }
 
-@media all and (min-width: 320px ) and (max-width: 500px) { /*para celular*/
+@media all and (min-width: 320px ) and (max-width: 529px) { /*para celular*/
 
     body{
         overflow-x: hidden;
@@ -209,13 +384,190 @@
         margin-right: 20px;
     }
 
-    main #primeiraimagem img{
+    main #texto1{
+        margin: -5% -5% 0% -18%;
+    }
+    main .unidades{
+        display: block;
+    }
+    main .unidades div{
+        padding: 10px 2px;
+        margin: 0px;
+    }
+    main .unidades img{
+        width: 20px;
+    }
+    main .unidades h1{
+        font: 600 1.1em var(--titulos);
+        margin-left: 20px;
+    }
+    main .unidades p{
+        font: 100 0.8em var(--paragrafos);
+        width: 300px;
+        padding: 5px;
+        margin-left: -30px;
+    }
+    main #serviços{
+        display: block;
+    }
+    main #serviços div{
+        padding: 10px 2px;
+        margin: 5px;
+    }
+    main #serviços h1{
+        font: 600 1.1em var(--titulos);
+    }
+    main #serviços p{
+        font: 100 0.8em var(--paragrafos);
+        width: 300px;
+        padding: 5px;
+    }
+    
+    
+    main #texto2{
+        padding: 5px 20px 10px;
+    }
+    main #texto2-1 img{
+        width: 120px; 
+    }
+    main #texto2-1 h1{
+        font: 600 1.1em var(--titulos);
+    }
+    main #texto2-1 p{
+        font: 100 0.9em var(--paragrafos);
+        width: 220px;
+        padding-top: 20px;
+    }
+
+    main #texto3{
+        padding: 20px 40px;
+    }
+    main #texto3 h1{
+        font: 600 1.3em var(--titulos);
+    }
+    main #saude{
+        display: block;
+        padding: 20px 50px 10px 50px;
+    }
+    main #saude img{
+        width: 140px;
+    }
+    main #saude h1{
+        font: 600 1.1em var(--titulos);
+        padding-top: 10px;
+        text-align: center;
+    }
+    main #saude p{
+        font: 100 0.9em var(--paragrafos);
+        width: 400px;
+        margin: 0px -25px;
+    }
+
+    main #texto4{
+        padding: 5px 20px 10px;
+    }
+    main #texto4 h1{
+        font: 600 1.3em var(--titulos);
+        padding-top: 10px;
+    }
+    main #cuidados{
+        width: 450px;
+    }
+    main #cuidados img{
+        width: 120px;
+    }
+    main #cuidados h1{
+        font: 600 1.1em var(--titulos);
+    }
+    main #cuidados p{
+        font: 100 0.9em var(--paragrafos);
+        width: 220px;
+        padding-top: 20px;
+    }
+
+    main #texto5{
+        padding: 30px 0px;
+    }
+    main #texto5 h1{
+        font: 600 1.3em var(--titulos);
+    }
+    main #especialistas{
+        margin: 10px;
+        padding: 20px;
+    }
+    main #texto5 #especialistas p{
+        width: 200px;
+        margin-left: -5%;
+    }
+    main #texto5 #especialistas ul{
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+    main #texto5 p{
+        font: 100 0.9em var(--paragrafos);
+        padding: 0px 30px;
+    }
+    main #texto5 #p2{
+        padding: 10px;
+        margin-left: 20px;
+        width: 450px;
+    }
+
+    main #texto6{
+        padding: 5px 20px 10px;
+    }
+    main #texto6 h1{
+        font: 600 1.3em var(--titulos);
+        padding-top: 10px;
+    }
+    main #carteirinha p{
+        font: 100 0.9em var(--paragrafos);
+        width: 250px;
+        padding-top: 10%;
+        padding-left: 2%;
+        text-align: left;
+    }
+    main #carteirinha img{
+        width: 140px; 
+        margin-right: -10%;
+    }
+
+    aside{
+        margin-bottom: -5%;
+    }
+    aside #contatos{
+        display: block;
+    }
+    aside #contatos #logo img{
         display: none;
     }
-    main #primeiraimagemResponsivo img{
-        display: block;
-        width: 100%;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
+    aside #contatos .unidades{
+        margin-top: 2%;
+        margin-left: -15%;
+    }    
+    aside #contatos .unidades h1{
+        font: 600 1em var(--titulos);
+        padding-bottom: 10px;
+    }
+    aside #contatos .unidades p{
+        width: 250px;
+        padding: 5px;
+        text-align: center;
+    }
+    aside #contatos .sociais{
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 40%;
+    }
+    aside #contatos .sociais h1{
+        display: none;
+    }
+    aside #contatos .sociais img{
+        width: 30px; height: 30px;
+        margin-top: 0px;
+    }
+
+    .scroll-top {
+        right: 10px;
     }
 }
