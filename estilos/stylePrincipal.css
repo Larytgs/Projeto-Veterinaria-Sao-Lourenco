@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'elegante';
-    src: url(fonts/Elegante\ Classica.ttf) format(truetype);
+    src: url(../fonts/Elegante\Classica.ttf) format(truetype);
 }
 
 :root{

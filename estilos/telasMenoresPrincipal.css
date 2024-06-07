@@ -594,7 +594,7 @@
         width: 25px; height: 25px;
     }
 
-    .scroll-top {
-        right: 10px;
+    .scroll-top img{
+        width: 40px;
     }
 }
