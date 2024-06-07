@@ -482,10 +482,12 @@
 
     main #texto4{
         padding: 5px 20px 20px 20px;
+        text-align: center;
     }
     main #texto4 h1{
         font: 600 1.2em var(--titulos);
         padding-top: 10px;
+        padding-left: 30%;
     }
     main #cuidados{
         width: 500px;
