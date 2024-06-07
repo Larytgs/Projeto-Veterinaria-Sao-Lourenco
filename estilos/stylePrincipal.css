@@ -39,6 +39,9 @@ header #logo img{
     margin-top: 5px;
 }
 
+header #menuResponsivo{
+    display: none;
+}
 header .menu .menu-opcao {
     display: inline-block;
 }
@@ -79,6 +82,9 @@ main #primeiraimagem img{
     width: 100%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+main #primeiraimagemResponsivo img{
+    display: none;
 }
 
 
@@ -130,22 +136,22 @@ main #texto2{
     background-color: #62C87B;
     border-radius: 10px;
     padding: 20px 50px 20px 50px;
-}
-main #texto2{
+
     display: block;
     columns: 2;
 }
-main #texto2 img{
+main #texto2-1 img{
     width: 130px; 
+    padding-top: 20px;
 }
-main #texto2 h1{
+main #texto2-1 h1{
     font: 600 1.1em var(--titulos);
     padding-top: 10px;
     text-align: left;
 }
-main #texto2 p{
+main #texto2-1 p{
     font: 100 1em var(--paragrafos);
-    width: 370px;
+    width: 420px;
     padding-top: 20px;
 }
 
@@ -193,6 +199,7 @@ main #texto4 h1{
 main #cuidados{
     display: block;
     columns: 2;
+    width: 900px;
 }
 main #cuidados img{
     width: 130px; 
@@ -205,7 +212,7 @@ main #texto4 #cuidados h1{
 }
 main #cuidados p{
     font: 100 1em var(--paragrafos);
-    width: 370px;
+    width: 420px;
     padding-top: 20px;
 }
 
