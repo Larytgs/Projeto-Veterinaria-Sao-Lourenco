@@ -404,7 +404,7 @@
     }
 
     main #texto1{
-        margin-left: -30%;
+        margin-left: -30%;             /*NAO TA CERTO*/
         margin-top: -10%;
     }
     main .unidades{
@@ -441,7 +441,7 @@
     
     
     main #texto2{
-        padding: 5px 20px 20px 20px;
+        padding: 5px 20px 20px 20px;     /*NAO TA CERTO*/
     }
     main #texto2-1{
         display: inline-block;
@@ -480,14 +480,13 @@
         width: 300px;
     }
 
-    main #texto4{
+    main #texto4{                           /*NAO TA CERTO*/
         padding: 5px 20px 20px 20px;
         text-align: center;
     }
     main #texto4 h1{
         font: 600 1.2em var(--titulos);
         padding-top: 10px;
-        padding-left: 30%;
     }
     main #cuidados{
         width: 500px;
@@ -497,6 +496,7 @@
     main #cuidados h1{
         font: 600 1.1em var(--titulos);
         text-align: center;
+        padding-left: 30%;       /*NAO TA CERTO*/
     }
     main #cuidados p{
         font: 100 0.9em var(--paragrafos);
