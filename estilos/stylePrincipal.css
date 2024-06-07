@@ -329,7 +329,7 @@ aside #contatos .sociais a{
 }
 
 
-.scroll-top {
+footer .scroll-top {
     position: fixed;
     bottom: 35px;
     right: 30px;
@@ -337,18 +337,6 @@ aside #contatos .sociais a{
 #botao-top {
     cursor: pointer;
 }
-/*.scroll-top.on {
-    bottom: 44px;
-    opacity: 1;
-    visibility: visible;
-}
-.scroll-top.off {
-    bottom: 44px;
-    opacity: 0;
-    visibility: hidden;
-}
-*/
-
 
 footer{
     padding: 10px;

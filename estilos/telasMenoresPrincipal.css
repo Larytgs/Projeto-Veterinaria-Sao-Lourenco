@@ -594,8 +594,8 @@
         width: 25px; height: 25px;
     }
 
-    .scroll-top{
-        right: 30px;
+    footer .scroll-top{
+        right: 5px;
     }
     .scroll-top img{
         width: 40px;
