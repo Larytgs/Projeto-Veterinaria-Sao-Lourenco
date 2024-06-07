@@ -178,6 +178,16 @@
         margin-right: 20px;
     }
 
+    main #primeiraimagem img{
+        display: none;
+    }
+    main #primeiraimagemResponsivo img{
+        display: block;
+        width: 100%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
     main #texto1{
         margin: -5% -5% 0% -18%;
         border-radius: 10px;
@@ -367,7 +377,7 @@
     }
 
     header #logo img{
-        width: 95px; height: 95px;
+        width: 70px; height: 70px;
     }
     header .menu{
         display: none;
@@ -379,36 +389,41 @@
         display: block;
     }
     header #menuResponsivo img{
-        width: 35px; height: 35px;
-        margin-top: 30px;
+        width: 30px; height: 30px;
+        margin-top: 20px;
         margin-right: 20px;
+    }
+    main #primeiraimagem img{
+        display: none;
+    }
+    main #primeiraimagemResponsivo img{
+        display: block;
+        width: 100%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
     }
 
     main #texto1{
-        margin: -5% -5% 0% -18%;
+        margin-left: -30%;
+        margin-top: -10%;
     }
     main .unidades{
-        display: block;
+        display: inline-block;
     }
     main .unidades div{
-        padding: 10px 2px;
-        margin: 0px;
-    }
-    main .unidades img{
-        width: 20px;
+        padding: 10px 20px;
     }
     main .unidades h1{
         font: 600 1.1em var(--titulos);
-        margin-left: 20px;
+        text-align: center;
     }
     main .unidades p{
         font: 100 0.8em var(--paragrafos);
-        width: 300px;
-        padding: 5px;
-        margin-left: -30px;
+        width: 400px;
+        margin: 0px -25px;
     }
     main #serviços{
-        display: block;
+        display: inline-block;
     }
     main #serviços div{
         padding: 10px 2px;
@@ -416,26 +431,29 @@
     }
     main #serviços h1{
         font: 600 1.1em var(--titulos);
+        text-align: center;
     }
     main #serviços p{
         font: 100 0.8em var(--paragrafos);
-        width: 300px;
-        padding: 5px;
+        width: 400px;
+        margin: 0px -25px;
     }
     
     
     main #texto2{
-        padding: 5px 20px 10px;
+        padding: 5px 20px 20px 20px;
     }
-    main #texto2-1 img{
-        width: 120px; 
+    main #texto2-1{
+        display: inline-block;
+        text-align: center;
     }
     main #texto2-1 h1{
         font: 600 1.1em var(--titulos);
+        text-align: center;
     }
     main #texto2-1 p{
         font: 100 0.9em var(--paragrafos);
-        width: 220px;
+        width: 300px;
         padding-top: 20px;
     }
 
@@ -443,14 +461,14 @@
         padding: 20px 40px;
     }
     main #texto3 h1{
-        font: 600 1.3em var(--titulos);
+        font: 600 1.2em var(--titulos);
     }
     main #saude{
-        display: block;
-        padding: 20px 50px 10px 50px;
+        display: inline;
+        width: 500px;
     }
     main #saude img{
-        width: 140px;
+        width: 100px;
     }
     main #saude h1{
         font: 600 1.1em var(--titulos);
@@ -459,45 +477,45 @@
     }
     main #saude p{
         font: 100 0.9em var(--paragrafos);
-        width: 400px;
-        margin: 0px -25px;
+        width: 300px;
     }
 
     main #texto4{
-        padding: 5px 20px 10px;
+        padding: 5px 20px 20px 20px;
     }
     main #texto4 h1{
-        font: 600 1.3em var(--titulos);
+        font: 600 1.2em var(--titulos);
         padding-top: 10px;
     }
     main #cuidados{
-        width: 450px;
-    }
-    main #cuidados img{
-        width: 120px;
+        width: 500px;
+        display: inline;
+        text-align: center;
     }
     main #cuidados h1{
         font: 600 1.1em var(--titulos);
+        text-align: center;
     }
     main #cuidados p{
         font: 100 0.9em var(--paragrafos);
-        width: 220px;
+        width: 300px;
         padding-top: 20px;
     }
 
     main #texto5{
         padding: 30px 0px;
+        margin: 15px;
     }
     main #texto5 h1{
-        font: 600 1.3em var(--titulos);
+        font: 600 1.2em var(--titulos);
     }
     main #especialistas{
         margin: 10px;
         padding: 20px;
+        display: inline;
     }
     main #texto5 #especialistas p{
-        width: 200px;
-        margin-left: -5%;
+        width: 300px;
     }
     main #texto5 #especialistas ul{
         margin-left: 15%;
@@ -510,47 +528,55 @@
     main #texto5 #p2{
         padding: 10px;
         margin-left: 20px;
-        width: 450px;
     }
 
     main #texto6{
-        padding: 5px 20px 10px;
+        padding: 5px 20px 20px 20px;
     }
     main #texto6 h1{
-        font: 600 1.3em var(--titulos);
+        font: 600 1.2em var(--titulos);
         padding-top: 10px;
+    }
+    main #carteirinha{
+        display: flex;
     }
     main #carteirinha p{
         font: 100 0.9em var(--paragrafos);
-        width: 250px;
-        padding-top: 10%;
-        padding-left: 2%;
-        text-align: left;
+        width: 400px;
+        padding-top: 5%;
+        padding-left: 0%;
+        text-align: center;
     }
     main #carteirinha img{
-        width: 140px; 
-        margin-right: -10%;
+        display: none;
     }
 
     aside{
+        padding-top: 0%;
         margin-bottom: -5%;
     }
     aside #contatos{
-        display: block;
+        display: inline;
+        text-align: center;
+        margin-top: -10%;
     }
     aside #contatos #logo img{
         display: none;
     }
     aside #contatos .unidades{
-        margin-top: 2%;
-        margin-left: -15%;
+        display: inline-block;
     }    
+    aside #contatos .unidades div{
+        padding: 10px 20px;
+    }   
+    aside #contatos .unidades img{
+        width: 20px; height: 20px;
+    }
     aside #contatos .unidades h1{
         font: 600 1em var(--titulos);
-        padding-bottom: 10px;
     }
     aside #contatos .unidades p{
-        width: 250px;
+        width: 300px;
         padding: 5px;
         text-align: center;
     }
@@ -563,8 +589,7 @@
         display: none;
     }
     aside #contatos .sociais img{
-        width: 30px; height: 30px;
-        margin-top: 0px;
+        width: 25px; height: 25px;
     }
 
     .scroll-top {
