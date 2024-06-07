@@ -404,7 +404,7 @@
     }
 
     main #texto1{
-        margin-left: -30%;             /*NAO TA CERTO*/
+        margin-left: -30%;             /*NAO TA CERTO (tem q ir junto)*/
         margin-top: -10%;
     }
     main .unidades{
@@ -441,7 +441,7 @@
     
     
     main #texto2{
-        padding: 5px 20px 20px 20px;     /*NAO TA CERTO*/
+        padding: 5px 20px 20px 20px;     /*NAO TA CERTO (tem q ir junto)*/
     }
     main #texto2-1{
         display: inline-block;
@@ -477,7 +477,7 @@
     }
     main #saude p{
         font: 100 0.9em var(--paragrafos);
-        width: 300px;
+        width: 300px;          /*NAO TA CERTO (tem q ir junto)*/
     }
 
     main #texto4{                           /*NAO TA CERTO*/
@@ -500,7 +500,7 @@
     }
     main #cuidados p{
         font: 100 0.9em var(--paragrafos);
-        width: 300px;
+        width: 300px;               /*NAO TA CERTO (tem q ir junto)*/
         padding-top: 20px;
     }
 
