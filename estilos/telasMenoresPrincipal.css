@@ -618,6 +618,9 @@
     aside #contatos #logo img{
         display: none;
     }
+    aside #contatos .unidades #boaV{
+        padding-right: 0%;
+    }
     aside #contatos .unidades{
         display: inline;
         text-align: center;
