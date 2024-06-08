@@ -582,21 +582,25 @@
     }
 
     main #texto6{
-        margin: -2%;
-        margin-bottom: 10px;
-        padding: 5px 20px 20px 20px;
-        width: 100%;
+        margin: 0%;
+        margin-left: -2%;
+        padding: 0%;
+        padding-right: 20px;
+        padding-bottom: 20px;
+
+        box-sizing: content-box;
+        width: 100%;    /*alinhar a borda de fora*/
     }
     main #texto6 h1{
         font: 600 1.2em var(--titulos);
-        padding-top: 10px;
+        padding: 10px 15px;
     }
     main #carteirinha{
         display: flex;
     }
     main #carteirinha p{
         font: 100 0.9em var(--paragrafos);
-        width: 400px;
+        width: 100%;
         padding-top: 5%;
         padding-left: 0%;
         text-align: center;
