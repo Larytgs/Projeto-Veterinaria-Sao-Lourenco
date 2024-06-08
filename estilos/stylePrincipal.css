@@ -1,12 +1,12 @@
 @charset "UTF8";
 
 @font-face {
-    font-family: 'caligrafia';
-    src: url(fontes/caligrafia.ttf) format(truetype);
+    font-family: 'caligrafia2';
+    src: url(../fonts/Cream\ Cake.otf) format(opentype);
 }
 
 :root{
-    --titulos: 'caligrafia';
+    --titulos: 'caligrafia2';
     --paragrafos: Arial, Verdana, sans-serif;
 }
 
@@ -51,7 +51,7 @@ header .menu .menu-opcao {
 }
 header .menu a{
     text-decoration: none;
-    font: 600 1.4em var(--titulos);
+    font: 100 2.5em var(--titulos);
     color: black;
     margin-top: 30px;
     margin-right: 40px;
@@ -80,11 +80,11 @@ main{
     border-bottom-right-radius: 10px;
 }
 main h1{
-    font: 600 1.5em var(--titulos);
+    font: 100 2.5em var(--titulos);
     background-image: linear-gradient(to right, #1F8F3B, #62C87B, white);
 }
 main h2{
-    font: 600 1.4em var(--titulos);
+    font: 100 2em var(--titulos);
     background-image: linear-gradient(to right, #62C87B, white);
 }
 main p{
@@ -222,7 +222,6 @@ main #texto5{
 }
 main #texto5 h1{
     text-align: center;
-    font: 600 1.5em var(--titulos);
 }
 main #especialistas{
     display: block;
@@ -236,7 +235,6 @@ main #texto5 #especialistas p{
 main #texto5 #especialistas ul{
     margin-left: 25%;
     margin-top: 20px;
-    font: 100 1em var(--paragrafos);
 }
 main #texto5 p{
     padding: 20px 30px;
@@ -275,7 +273,10 @@ main #carteirinha img{
 aside{
     background-color: #98F5AF;
     padding-bottom: 30px;  
-
+}
+aside h2{
+    font: 100 2em var(--titulos);
+    background-image: linear-gradient(to right, #62C87B, white);
 }
 aside #contatos{
     display: flex;
@@ -296,7 +297,6 @@ aside #contatos .unidades{
     margin-left: 10%;
 }
 aside #contatos .unidades h1{
-    font: 600 1.4em var(--titulos);
     padding-bottom: 10px;
     text-align: center;
 }

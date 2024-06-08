@@ -1,12 +1,12 @@
 @charset "UTF8";
 
 @font-face {
-    font-family: 'caligrafia';
-    src: url(../fonts/caligrafia.ttf) format(truetype);
+    font-family: 'caligrafia2';
+    src: url(../fonts/Cream\ Cake.otf) format(opentype);
 }
 
 :root{
-    --titulos: 'caligrafia';
+    --titulos: 'caligrafia2';
     --paragrafos: Arial, Verdana, sans-serif;
 }
 
@@ -83,7 +83,7 @@
         width: 85px; height: 85px;
     }
     header .menu a{
-        font: 600 1.1em var(--titulos);
+        font: 100 2em var(--titulos);
         text-decoration: underline;
         margin-top: 35px;
         margin-right: 5px;
@@ -188,6 +188,17 @@
         margin-right: 20px;
     }
 
+    main h1{
+        font: 100 2em var(--titulos);
+        background-image: linear-gradient(to right, #1F8F3B, #62C87B, white);
+    }
+    main h2{
+        font: 100 1.8em var(--titulos);
+        background-image: linear-gradient(to right, #62C87B, white);
+    }
+    main p{
+        font: 100 1em var(--paragrafos);
+    }
     main #primeiraimagem img{
         display: none;
     }
@@ -209,11 +220,8 @@
     main .unidades img{
         width: 20px;
     }
-    main .unidades h1{
-        font: 600 1.1em var(--titulos);
-    }
+    
     main .unidades p{
-        font: 100 0.8em var(--paragrafos);
         width: 220px;
         padding: 5px;
     }
@@ -221,11 +229,7 @@
         padding: 10px 2px;
         margin: 5px;
     }
-    main #serviços h1{
-        font: 600 1.1em var(--titulos);
-    }
     main #serviços p{
-        font: 100 0.8em var(--paragrafos);
         width: 220px;
         padding: 5px;
     }
@@ -237,20 +241,13 @@
     main #texto2-1 img{
         width: 120px; 
     }
-    main #texto2-1 h1{
-        font: 600 1.1em var(--titulos);
-    }
     main #texto2-1 p{
-        font: 100 0.9em var(--paragrafos);
         width: 220px;
         padding-top: 20px;
     }
 
     main #texto3{
         padding: 20px 40px;
-    }
-    main #texto3 h1{
-        font: 600 1.3em var(--titulos);
     }
     main #saude{
         display: block;
@@ -261,12 +258,10 @@
         padding: 20px 10px;
     }
     main #saude h1{
-        font: 600 1.1em var(--titulos);
         padding-top: 0%;
         text-align: center;
     }
     main #saude p{
-        font: 100 0.9em var(--paragrafos);
         width: 100%;
         margin: 0px;
         margin-bottom: 15px;
@@ -276,7 +271,6 @@
         padding: 5px 20px 10px;
     }
     main #texto4 h1{
-        font: 600 1.3em var(--titulos);
         padding-top: 10px;
     }
     main #cuidados{
@@ -285,20 +279,13 @@
     main #cuidados img{
         width: 120px;
     }
-    main #cuidados h1{
-        font: 600 1.1em var(--titulos);
-    }
     main #cuidados p{
-        font: 100 0.9em var(--paragrafos);
         width: 220px;
         padding-top: 20px;
     }
 
     main #texto5{
         padding: 30px 0px;
-    }
-    main #texto5 h1{
-        font: 600 1.3em var(--titulos);
     }
     main #especialistas{
         margin: 10px;
@@ -313,7 +300,6 @@
         margin-top: 20px;
     }
     main #texto5 p{
-        font: 100 0.9em var(--paragrafos);
         padding: 0px 30px;
     }
     main #texto5 #p2{
@@ -326,11 +312,9 @@
         padding: 5px 20px 10px;
     }
     main #texto6 h1{
-        font: 600 1.3em var(--titulos);
         padding-top: 10px;
     }
     main #carteirinha p{
-        font: 100 0.9em var(--paragrafos);
         width: 250px;
         padding-top: 10%;
         padding-left: 2%;
@@ -344,6 +328,10 @@
     aside{
         margin-bottom: -5%;
     }
+    aside h2{
+        font: 100 2em var(--titulos);
+        background-image: linear-gradient(to right, #62C87B, white);
+    }
     aside #contatos{
         display: block;
     }
@@ -355,7 +343,6 @@
         margin-left: -15%;
     }    
     aside #contatos .unidades h1{
-        font: 600 1em var(--titulos);
         padding-bottom: 10px;
     }
     aside #contatos .unidades p{
@@ -379,7 +366,6 @@
     .scroll-top {
         right: 10px;
     }
-
 }
 
 @media all and (min-width: 320px ) and (max-width: 529px) { /*para celular*/
@@ -406,7 +392,13 @@
         margin-right: 20px;
     }
     main h1{
-        font: 600 1.4em var(--titulos);
+        font: 100 2em var(--titulos);
+    }
+    main h2{
+        font: 100 1.9em var(--titulos);
+    }
+    main h3{
+        font: 100 1.9em var(--titulos);
     }
     main p{
         font: 100 1em var(--paragrafos);
@@ -440,13 +432,12 @@
         margin: 0%;
         padding-top: 15px;
     }
-    main .unidades h1{
-        font: 600 1.4em var(--titulos);
+    main .unidades h2{
         text-align: center;
         margin-left: 40px;
+        margin-bottom: 5px;
     }
     main .unidades p{
-        font: 100 1em var(--paragrafos);
         width: 100%;
     }
     main #serviços{
@@ -461,11 +452,11 @@
         margin: 0%;
         padding-top: 15px;
     }
-    main #serviços h1{
-        font: 600 1.4em var(--titulos);
+    main #serviços h2{
         text-align: center;
         padding-top: 10px;
         margin-left: 15px;
+        margin-bottom: 5px;
     }
     main #serviços p{
         width: 100%;
@@ -531,6 +522,7 @@
     }
     main #texto4 h1{
         padding: 10px 15px;
+        margin: auto;
     }
     main #cuidados{
         display: inline-block;
@@ -548,6 +540,7 @@
     main #cuidados p{
         width: 100%;    /*alinhar o texto de dentro*/
         padding: 0px;
+        padding-top: 10px;
     }
 
     main #texto5{
@@ -555,6 +548,7 @@
     }
     main #texto5 h1{
         margin: 30px 10px 0px;
+        padding: 3.8px;
     }
     main #especialistas{
         margin: 10px;
@@ -584,6 +578,7 @@
         margin-left: -2%;
         margin-bottom: 10px;
         padding: 0%;
+        padding-top: 5px;
         padding-right: 20px;
         padding-bottom: 20px;
 
@@ -592,6 +587,7 @@
     }
     main #texto6 h1{
         padding: 10px 15px;
+        margin-left: 10px;
     }
     main #carteirinha{
         display: flex;
@@ -638,13 +634,14 @@
     aside #contatos .unidades img{
         width: 20px; height: 20px;
     }
-    aside #contatos .unidades h1{
+    aside #contatos .unidades h2{
         text-align: center;
         padding-top: 0px;
+        margin-bottom: 5px;
         margin-left: 20px;
     }
     aside #contatos .unidades p{
-        width: 100%;;
+        width: 100%;
     }
 
     aside #contatos .sociais{
