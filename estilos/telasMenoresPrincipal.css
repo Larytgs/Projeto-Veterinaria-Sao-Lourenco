@@ -432,12 +432,12 @@
         padding-top: 15px;
     }
     main .unidades h1{
-        font: 600 1.1em var(--titulos);
+        font: 600 1.4em var(--titulos);
         text-align: center;
         margin-left: 40px;
     }
     main .unidades p{
-        font: 100 0.9em var(--paragrafos);
+        font: 100 1em var(--paragrafos);
         width: 100%;
     }
     main #serviços{
@@ -453,13 +453,13 @@
         padding-top: 15px;
     }
     main #serviços h1{
-        font: 600 1.1em var(--titulos);
+        font: 600 1.4em var(--titulos);
         text-align: center;
         padding-top: 10px;
         margin-left: 15px;
     }
     main #serviços p{
-        font: 100 0.9em var(--paragrafos);
+        font: 100 1em var(--paragrafos);
         width: 100%;
     }
     
@@ -482,11 +482,11 @@
         padding: 10px;
     }
     main #texto2-1 h1{
-        font: 600 1.1em var(--titulos);
+        font: 600 1.4em var(--titulos);
         text-align: center;
     }
     main #texto2-1 p{
-        font: 100 0.9em var(--paragrafos);
+        font: 100 1em var(--paragrafos);
         width: 100%;          /*alinhar o texto de dentro*/
         padding: auto;
         padding-top: 20px;
