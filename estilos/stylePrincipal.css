@@ -81,7 +81,7 @@ main{
 }
 main h1{
     font: 100 2.5em var(--titulos);
-    background-image: linear-gradient(to right, #1F8F3B, #62C87B, white);
+    background-image: linear-gradient(to right, #62C87B, white);
 }
 main h2{
     font: 100 2em var(--titulos);
