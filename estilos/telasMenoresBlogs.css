@@ -5,10 +5,168 @@
     --paragrafos: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
-@media all and (min-width: 481px) and (max-width: 768px) { /*para tablets*/
+@media all and (min-width: 990px) and (max-width: 1115px) { /*para notebooks menores*/
+
+    body{
+        overflow-x: hidden;
+    }
+    header .menu a{
+        text-decoration: underline;
+        color: black;
+        margin-top: 30px;
+        margin-right: 5px;
+    }
+    header .menu a:hover{
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.795);
+    }
+    header .sociais img{
+        width: 35px; height: 35px;
+        margin-top: 30px;
+    }
+
+
+
+
+}
+
+@media all and (min-width: 800px) and (max-width: 989px) { /*para tablets grandes*/
+
+    body{
+        overflow-x: hidden;
+    }
+
+    header #logo img{
+        width: 85px; height: 85px;
+    }
+    header .menu a{
+        font: 100 2em var(--titulos);
+        text-decoration: underline;
+        margin-top: 35px;
+        margin-right: 5px;
+    }
+    header .sociais img{
+        width: 30px; height: 30px;
+        margin-top: 30px;
+    }
+
+
+
+
+
+}
+
+@media all and (min-width: 530px) and (max-width: 799px) { /*para tablets pqnos*/
+
+    body{
+        overflow-x: hidden;
+    }
+
+    header #logo img{
+        width: 95px; height: 95px;
+    }
+    header .menu{
+        display: none;
+    }
+    header .sociais img{
+        display: none;
+    }
+    header #menuResponsivo{
+        display: block;
+    }
+    header #menuResponsivo img{
+        width: 30px; height: 30px;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    header #menuResponsivo #menu{
+        display: none;
+    }
+    header #menuResponsivo:hover #menu{
+        display: block;
+        position: absolute;
+
+        background-color: rgba(0, 0, 0, 0.904);
+        height: 130px; width: 130px;
+        margin-top: 0%;
+        margin-left: -10%;
+        text-align: center;
+    }
+    #menu a{
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        width: 100%;
+        padding-top: 10px;
+        font: 100 0.9em var(--paragrafos);
+        color: white;
+    }
+    #menu a:hover{
+        text-decoration: underline;
+    }
+
+
+
+
+
+
 
 }
 
 @media all and (min-width: 320px ) and (max-width: 480px) { /*para celular*/
+
+    body{
+        overflow-x: hidden;
+    }
+
+    header #logo img{
+        width: 70px; height: 70px;
+    }
+    header .menu{
+        display: none;
+    }
+    header .sociais img{
+        display: none;
+    }
+    header #menuResponsivo{
+        display: block;
+    }
+    header #menuResponsivo img{
+        width: 30px; height: 30px;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    header #menuResponsivo #menu{
+        display: none;
+    }
+    header #menuResponsivo:hover #menu{
+        display: block;
+        position: absolute;
+
+        background-color: rgba(0, 0, 0, 0.904);
+        height: 140px; width: 130px;
+        margin-top: 0%;
+        margin-left: -20%;
+        text-align: center;
+    }
+    #menu a{
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        width: 100%;
+        padding-top: 10px;
+        font: 100 0.9em var(--paragrafos);
+        color: white;
+    }
+    #menu a:hover{
+        text-decoration: underline;
+    }
+
+
+
+
 
 }
