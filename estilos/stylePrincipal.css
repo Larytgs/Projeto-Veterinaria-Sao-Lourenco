@@ -80,7 +80,12 @@ main{
     border-bottom-right-radius: 10px;
 }
 main h1{
+    font: 600 1.5em var(--titulos);
+    background-image: linear-gradient(to right, #1F8F3B, #62C87B, white);
+}
+main h2{
     font: 600 1.4em var(--titulos);
+    background-image: linear-gradient(to right, #62C87B, white);
 }
 main p{
     font: 100 1em var(--paragrafos);
