@@ -617,7 +617,7 @@
         padding: 0px 10px 15px;
 
         box-sizing: content-box;
-        width: 80%;    /*alinhar a borda de fora*/
+        width: 82%;    /*alinhar a borda de fora*/
     }
     aside #contatos #logo img{
         display: none;

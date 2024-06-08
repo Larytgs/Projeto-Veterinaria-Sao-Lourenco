@@ -1,14 +1,10 @@
 @charset "UTF8";
 
-@font-face {
-    font-family: 'elegante';
-    src: url(../fonts/EleganteClassica.ttf) format(truetype);
-}
-
 :root{
-    --titulos: 'elegante', Times, serif;
+    --titulos: cursive;
     --paragrafos: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
+
 * {
     margin: 0px;
     padding: 0px;
