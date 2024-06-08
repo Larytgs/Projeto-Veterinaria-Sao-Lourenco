@@ -655,6 +655,7 @@
     }
 
     aside .scroll-top{
+        display: none;
         margin-right: 5px;
 
     }
