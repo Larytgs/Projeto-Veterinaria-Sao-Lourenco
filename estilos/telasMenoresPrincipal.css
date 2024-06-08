@@ -4,7 +4,6 @@
 :root{
     --titulos: cursive;
     --paragrafos: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    --paragrafosCelular: Arial, Helvetica, sans-serif;
 }
 
 @media all and (min-width: 990px) and (max-width: 1115px) { /*para notebooks menores*/
@@ -438,7 +437,7 @@
         margin-left: 40px;
     }
     main .unidades p{
-        font: 100 0.8em cursive;
+        font: 100 0.9em var(--paragrafos);
         width: 100%;
     }
     main #serviços{
@@ -460,7 +459,7 @@
         margin-left: 15px;
     }
     main #serviços p{
-        font: 100 0.8em cursive;
+        font: 100 0.9em var(--paragrafos);
         width: 100%;
     }
     
@@ -596,7 +595,7 @@
         display: flex;
     }
     main #carteirinha p{
-        font: 100 0.9em var(--paragrafosCelular);
+        font: 100 0.9em var(--paragrafos);
         width: 400px;
         padding-top: 5%;
         padding-left: 0%;
