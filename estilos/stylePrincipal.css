@@ -46,7 +46,7 @@ header .menu .menu-opcao {
 }
 header .menu a{
     text-decoration: none;
-    font: 600 1.3em var(--titulos);
+    font: 600 1.8em var(--titulos);
     color: black;
     margin-top: 30px;
     margin-right: 40px;
@@ -99,12 +99,12 @@ main .unidades img{
     width: 25px;
 }
 main .unidades h1{
-    font: 600 1.2em var(--titulos);
+    font: 600 1.4em var(--titulos);
     padding-bottom: 10px;
     text-align: center;
 }
 main .unidades p{
-    font: 100 0.9em var(--paragrafos);
+    font: 100 1em var(--paragrafos);
     width: 350px;
     padding: 5px;
 }
@@ -116,12 +116,12 @@ main #serviços{
     padding: 20px 50px 10px 50px;
 }
 main #serviços h1{
-    font: 600 1.2em var(--titulos);
+    font: 600 1.4em var(--titulos);
     padding-bottom: 10px;
     text-align: center;
 }
 main #serviços p{
-    font: 100 0.9em var(--paragrafos);
+    font: 100 1em var(--paragrafos);
     width: 350px;
     padding: 5px;
 }
@@ -141,7 +141,7 @@ main #texto2-1 img{
     padding-top: 20px;
 }
 main #texto2-1 h1{
-    font: 600 1.1em var(--titulos);
+    font: 600 1.4em var(--titulos);
     padding-top: 10px;
     text-align: left;
 }
@@ -156,7 +156,7 @@ main #texto3{
     padding: 50px 40px;
 }
 main #texto3 h1{
-    font: 600 1.4em var(--titulos);
+    font: 600 1.6em var(--titulos);
     text-align: center;
 }
 main #saude{
@@ -170,7 +170,7 @@ main #saude img{
     width: 150px;
 }
 main #saude h1{
-    font: 600 1.1em var(--titulos);
+    font: 600 1.4em var(--titulos);
     padding-top: 10px;
     text-align: center;
 }
@@ -189,7 +189,7 @@ main #texto4{
     padding: 20px 50px 20px 50px;
 }
 main #texto4 h1{
-    font: 600 1.4em var(--titulos);
+    font: 600 1.6em var(--titulos);
     text-align: center;
 }
 main #cuidados{
@@ -202,7 +202,7 @@ main #cuidados img{
     padding-top: 20px;
 }
 main #texto4 #cuidados h1{
-    font: 600 1.1em var(--titulos);
+    font: 600 1.4em var(--titulos);
     padding-top: 10px;
     text-align: left;
 }
@@ -295,12 +295,12 @@ aside #contatos .unidades{
     margin-left: 10%;
 }
 aside #contatos .unidades h1{
-    font: 600 1.1em var(--titulos);
+    font: 600 1.4em var(--titulos);
     padding-bottom: 10px;
     text-align: center;
 }
 aside #contatos .unidades p{
-    font: 100 0.8em var(--paragrafos);
+    font: 100 0.9em var(--paragrafos);
     width: 300px;
     padding: 5px;
     text-align: center;
