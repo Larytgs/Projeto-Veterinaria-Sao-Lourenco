@@ -1,8 +1,13 @@
 @charset "UTF8";
 
+@font-face {
+    font-family: 'caligrafia';
+    src: url(fontes/caligrafia.ttf) format(truetype);
+}
+
 :root{
-    --titulos: cursive;
-    --paragrafos: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    --titulos: 'caligrafia';
+    --paragrafos: Arial, Verdana, sans-serif;
 }
 
 * {
@@ -46,7 +51,7 @@ header .menu .menu-opcao {
 }
 header .menu a{
     text-decoration: none;
-    font: 600 1.8em var(--titulos);
+    font: 600 1.4em var(--titulos);
     color: black;
     margin-top: 30px;
     margin-right: 40px;
@@ -74,6 +79,12 @@ main{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+main h1{
+    font: 600 1.4em var(--titulos);
+}
+main p{
+    font: 100 1em var(--paragrafos);
+}
 main #primeiraimagem img{
     width: 100%;
     border-bottom-left-radius: 10px;
@@ -99,12 +110,10 @@ main .unidades img{
     width: 25px;
 }
 main .unidades h1{
-    font: 600 1.4em var(--titulos);
     padding-bottom: 10px;
     text-align: center;
 }
 main .unidades p{
-    font: 100 1em var(--paragrafos);
     width: 350px;
     padding: 5px;
 }
@@ -116,12 +125,10 @@ main #serviços{
     padding: 20px 50px 10px 50px;
 }
 main #serviços h1{
-    font: 600 1.4em var(--titulos);
     padding-bottom: 10px;
     text-align: center;
 }
 main #serviços p{
-    font: 100 1em var(--paragrafos);
     width: 350px;
     padding: 5px;
 }
@@ -141,12 +148,10 @@ main #texto2-1 img{
     padding-top: 20px;
 }
 main #texto2-1 h1{
-    font: 600 1.4em var(--titulos);
     padding-top: 10px;
     text-align: left;
 }
 main #texto2-1 p{
-    font: 100 1em var(--paragrafos);
     width: 420px;
     padding-top: 20px;
 }
@@ -156,7 +161,6 @@ main #texto3{
     padding: 50px 40px;
 }
 main #texto3 h1{
-    font: 600 1.6em var(--titulos);
     text-align: center;
 }
 main #saude{
@@ -170,12 +174,10 @@ main #saude img{
     width: 150px;
 }
 main #saude h1{
-    font: 600 1.4em var(--titulos);
     padding-top: 10px;
     text-align: center;
 }
 main #saude p{
-    font: 100 1em var(--paragrafos);
     width: 350px;
     padding-top: 20px;
 }
@@ -189,7 +191,6 @@ main #texto4{
     padding: 20px 50px 20px 50px;
 }
 main #texto4 h1{
-    font: 600 1.6em var(--titulos);
     text-align: center;
 }
 main #cuidados{
@@ -202,12 +203,10 @@ main #cuidados img{
     padding-top: 20px;
 }
 main #texto4 #cuidados h1{
-    font: 600 1.4em var(--titulos);
     padding-top: 10px;
     text-align: left;
 }
 main #cuidados p{
-    font: 100 1em var(--paragrafos);
     width: 420px;
     padding-top: 20px;
 }
@@ -217,8 +216,8 @@ main #texto5{
     padding: 50px 50px;
 }
 main #texto5 h1{
-    font: 600 1.4em var(--titulos);
     text-align: center;
+    font: 600 1.5em var(--titulos);
 }
 main #especialistas{
     display: block;
@@ -228,14 +227,13 @@ main #especialistas{
 }
 main #texto5 #especialistas p{
     width: 400px;
-    font: 100 1em var(--paragrafos);
 }
 main #texto5 #especialistas ul{
     margin-left: 25%;
     margin-top: 20px;
+    font: 100 1em var(--paragrafos);
 }
 main #texto5 p{
-    font: 100 1em var(--paragrafos);
     padding: 20px 30px;
 }
 
@@ -247,7 +245,6 @@ main #texto6{
     padding: 20px 50px 20px 50px;
 }
 main #texto6 h1{
-    font: 600 1.4em var(--titulos);
     text-align: center;
 }
 main #carteirinha{
@@ -256,7 +253,6 @@ main #carteirinha{
     text-align: center;
 }
 main #carteirinha p{
-    font: 100 1em var(--paragrafos);
     width: 370px;
     padding-top: 10%;
     padding-left: 30%;
@@ -340,7 +336,6 @@ footer{
     background-color: #62C87B;
 }
 footer p{
-    font: 100 1em var(--paragrafos);
     text-align: center;
     color: black;
 }
