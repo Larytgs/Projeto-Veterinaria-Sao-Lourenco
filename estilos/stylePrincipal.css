@@ -326,9 +326,9 @@ aside #contatos .sociais a{
 }
 
 
-footer .scroll-top {
+aside .scroll-top {
     position: fixed;
-    bottom: 0px;
+    bottom: 40px;
     right: 30px;
 }
 #botao-top {

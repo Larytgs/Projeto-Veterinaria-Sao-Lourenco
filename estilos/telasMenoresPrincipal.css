@@ -658,8 +658,9 @@
         display: none;
     }
 
-    footer .scroll-top{
-        right: 5px;
+    aside .scroll-top{
+        margin-right: 5px;
+
     }
     .scroll-top img{
         width: 40px;
