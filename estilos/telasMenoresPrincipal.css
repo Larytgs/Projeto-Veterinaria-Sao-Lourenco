@@ -1,12 +1,8 @@
 @charset "UTF8";
 
-@font-face {
-    font-family: 'elegante';
-    src: url(../fonts/EleganteClassica.ttf) format(truetype);
-}
 
 :root{
-    --titulos: 'elegante', Times, serif;
+    --titulos: cursive;
     --paragrafos: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     --paragrafosCelular: Arial, Helvetica, sans-serif;
 }
@@ -15,6 +11,7 @@
 
     body{
         overflow-x: hidden;
+        font-family: cursive
     }
     header .menu a{
         text-decoration: underline;
@@ -441,7 +438,7 @@
         margin-left: 40px;
     }
     main .unidades p{
-        font: 600 0.8em var(--paragrafosCelular);
+        font: 100 0.8em cursive;
         width: 100%;
     }
     main #serviços{
@@ -463,7 +460,7 @@
         margin-left: 15px;
     }
     main #serviços p{
-        font: 600 0.8em var(--paragrafosCelular);
+        font: 100 0.8em cursive;
         width: 100%;
     }
     
@@ -617,7 +614,7 @@
         margin: 0%;
         margin-left: 0%;
         padding: 0%;
-        padding: 10px;
+        padding: 0px 10px 15px;
 
         box-sizing: content-box;
         width: 80%;    /*alinhar a borda de fora*/
@@ -631,7 +628,7 @@
 
         box-sizing: border-box;
         width: 100%;   /*alinhar a div de dentro*/
-        padding: 10px;
+        padding: 0%;
     }    
     aside #contatos .unidades div{
         margin: 0%;
@@ -644,7 +641,8 @@
     aside #contatos .unidades h1{
         font: 600 1em var(--titulos);
         text-align: center;
-        padding-top: 10px;
+        padding-top: 0px;
+        margin-left: 20px;
     }
     aside #contatos .unidades p{
         width: 100%;
