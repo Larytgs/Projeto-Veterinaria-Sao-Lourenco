@@ -340,7 +340,7 @@ footer{
     background-color: #62C87B;
 }
 footer p{
-    font: 100 0.9em var(--paragrafos);
+    font: 100 1em var(--paragrafos);
     text-align: center;
     color: black;
 }
