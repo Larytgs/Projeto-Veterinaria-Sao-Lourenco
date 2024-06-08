@@ -482,7 +482,7 @@
         padding: 10px;
     }
     main #texto2-1 h1{
-        font: 600 1.4em var(--titulos);
+        font: 600 1.3em var(--titulos);
         text-align: center;
     }
     main #texto2-1 p{
@@ -496,7 +496,7 @@
         padding: 20px 30px 0px 30px;
     }
     main #texto3 h1{
-        font: 600 1.2em var(--titulos);
+        font: 600 1.4em var(--titulos);
         margin-top: 20px;
     }
     main #saude{
@@ -508,12 +508,12 @@
         padding: 20px 10px 0px 10px;
     }
     main #saude h1{
-        font: 600 1.1em var(--titulos);
+        font: 600 1.3em var(--titulos);
         padding-top: 0%;
         text-align: center;
     }
     main #saude p{
-        font: 100 0.9em var(--paragrafos);
+        font: 100 1em var(--paragrafos);
         width: 100%;          
     }
 
