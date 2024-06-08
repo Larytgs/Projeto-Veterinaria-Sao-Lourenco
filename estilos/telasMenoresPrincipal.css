@@ -1,9 +1,21 @@
 @charset "UTF8";
 
+@font-face {
+    font-family: 'elegante';
+    src: url(../fonts/Elegante\Classica.ttf) format(truetype);
+}
+
+:root{
+    --titulos: 'elegante', Times, serif;
+    --paragrafos: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    --paragrafosCelular: Arial, Helvetica, sans-serif;
+}
+
 @media all and (min-width: 990px) and (max-width: 1115px) { /*para notebooks menores*/
 
     body{
         overflow-x: hidden;
+        font-family: ;
     }
     header .menu a{
         text-decoration: underline;
@@ -248,16 +260,18 @@
     }
     main #saude img{
         width: 140px;
+        padding: 20px 10px;
     }
     main #saude h1{
         font: 600 1.1em var(--titulos);
-        padding-top: 10px;
+        padding-top: 0%;
         text-align: center;
     }
     main #saude p{
         font: 100 0.9em var(--paragrafos);
-        width: 400px;
-        margin: 0px -25px;
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 15px;
     }
 
     main #texto4{
@@ -404,48 +418,72 @@
     }
 
     main #texto1{
-        margin-left: -30%;             /*NAO TA CERTO (tem q ir junto)*/
-        margin-top: -10%;
+        margin: 0%;
+        padding: 0%;
+
+        box-sizing: content-box;
+        width: 100%;    /*alinhar a borda de fora*/
     }
     main .unidades{
         display: inline-block;
+        text-align: center;
+
+        box-sizing: border-box;
+        width: 100%;   /*alinhar a div de dentro*/
+        padding: 10px;
     }
     main .unidades div{
-        padding: 10px 20px;
+        margin: 0%;
+        padding-top: 15px;
     }
     main .unidades h1{
         font: 600 1.1em var(--titulos);
         text-align: center;
+        padding-top: 10px;
     }
     main .unidades p{
-        font: 100 0.8em var(--paragrafos);
-        width: 400px;
-        margin: 0px -25px;
+        font: 600 0.8em var(--paragrafosCelular);
+        width: 100%;
     }
     main #serviços{
         display: inline-block;
+        text-align: center;
+
+        box-sizing: border-box;
+        width: 100%;   /*alinhar a div de dentro*/
+        padding: 10px;
     }
     main #serviços div{
-        padding: 10px 2px;
-        margin: 5px;
+        margin: 0%;
+        padding-top: 15px;
     }
     main #serviços h1{
         font: 600 1.1em var(--titulos);
         text-align: center;
+        padding-top: 10px;
     }
     main #serviços p{
-        font: 100 0.8em var(--paragrafos);
-        width: 400px;
-        margin: 0px -25px;
+        font: 600 0.8em var(--paragrafosCelular);
+        width: 100%;
     }
     
     
     main #texto2{
-        padding: 5px 20px 20px 20px;     /*NAO TA CERTO (tem q ir junto)*/
+        margin: -5.5%;
+        margin-top: 20px;
+        padding: 0%;
+        padding: 10px 20px;
+
+        box-sizing: content-box;
+        width: 210%;    /*alinhar a borda de fora*/
     }
     main #texto2-1{
         display: inline-block;
         text-align: center;
+
+        box-sizing: border-box;
+        width: 98%;   /*alinhar a div de dentro*/
+        padding: 10px;
     }
     main #texto2-1 h1{
         font: 600 1.1em var(--titulos);
@@ -453,87 +491,105 @@
     }
     main #texto2-1 p{
         font: 100 0.9em var(--paragrafos);
-        width: 300px;
+        width: 100%;          /*alinhar o texto de dentro*/
+        padding: auto;
         padding-top: 20px;
     }
 
     main #texto3{
-        padding: 20px 40px;
+        padding: 20px 30px 0px 30px;
     }
     main #texto3 h1{
         font: 600 1.2em var(--titulos);
+        margin-top: 20px;
     }
     main #saude{
         display: inline;
-        width: 500px;
+        width: 100%;
     }
     main #saude img{
         width: 100px;
+        padding: 20px 10px 0px 10px;
     }
     main #saude h1{
         font: 600 1.1em var(--titulos);
-        padding-top: 10px;
+        padding-top: 0%;
         text-align: center;
     }
     main #saude p{
         font: 100 0.9em var(--paragrafos);
-        width: 300px;          /*NAO TA CERTO (tem q ir junto)*/
+        width: 100%;          
     }
 
-    main #texto4{                           /*NAO TA CERTO*/
-        padding: 5px 20px 20px 20px;
-        text-align: center;
+    main #texto4{
+        margin: -5.6%;
+        margin-top: 20px;
+        padding: 0%;
+        padding: 10px 20px;
+
+        box-sizing: content-box;
+        width: 100%;    /*alinhar a borda de fora*/
     }
     main #texto4 h1{
         font: 600 1.2em var(--titulos);
-        padding-top: 10px;
+        padding: 10px 15px;
     }
     main #cuidados{
-        width: 500px;
-        display: inline;
+        display: inline-block;
         text-align: center;
+        columns: 1;
+
+        box-sizing: border-box;
+        width: 99%;    /*alinhar a div de dentro*/
+        padding: 10px 15px;
     }
     main #cuidados h1{
         font: 600 1.1em var(--titulos);
         text-align: center;
-        padding-left: 30%;       /*NAO TA CERTO*/
+        margin-left: 25px;
     }
     main #cuidados p{
         font: 100 0.9em var(--paragrafos);
-        width: 300px;               /*NAO TA CERTO (tem q ir junto)*/
-        padding-top: 20px;
+        width: 100%;    /*alinhar o texto de dentro*/
+        padding: 0px;
     }
 
     main #texto5{
-        padding: 30px 0px;
-        margin: 15px;
+        padding: 20px 30px;
     }
     main #texto5 h1{
         font: 600 1.2em var(--titulos);
+        margin: 30px 10px 0px;
     }
     main #especialistas{
         margin: 10px;
-        padding: 20px;
         display: inline;
+        width: 100%;
     }
     main #texto5 #especialistas p{
-        width: 300px;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
     }
     main #texto5 #especialistas ul{
-        margin-left: 25%;
         margin-top: 20px;
     }
     main #texto5 p{
         font: 100 0.9em var(--paragrafos);
-        padding: 0px 30px;
+        padding: 0%;
+        width: 100%;
     }
     main #texto5 #p2{
-        padding: 10px;
-        margin-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
     }
 
     main #texto6{
+        margin: -2%;
+        margin-bottom: 10px;
         padding: 5px 20px 20px 20px;
+        width: 100%;
     }
     main #texto6 h1{
         font: 600 1.2em var(--titulos);
@@ -543,7 +599,7 @@
         display: flex;
     }
     main #carteirinha p{
-        font: 100 0.9em var(--paragrafos);
+        font: 100 0.9em var(--paragrafosCelular);
         width: 400px;
         padding-top: 5%;
         padding-left: 0%;
@@ -554,44 +610,48 @@
     }
 
     aside{
-        padding-top: 0%;
-        margin-bottom: -5%;
+        padding: 0%;
+        margin: 0%;
     }
     aside #contatos{
-        display: inline;
-        text-align: center;
-        margin-top: -10%;
+        margin: 0%;
+        margin-left: 0%;
+        padding: 0%;
+        padding: 10px;
+
+        box-sizing: content-box;
+        width: 80%;    /*alinhar a borda de fora*/
     }
     aside #contatos #logo img{
         display: none;
     }
     aside #contatos .unidades{
-        display: inline-block;
+        display: inline;
+        text-align: center;
+
+        box-sizing: border-box;
+        width: 100%;   /*alinhar a div de dentro*/
+        padding: 10px;
     }    
     aside #contatos .unidades div{
-        padding: 10px 20px;
+        margin: 0%;
+        padding: 0%;
+        padding-top: 15px;
     }   
     aside #contatos .unidades img{
         width: 20px; height: 20px;
     }
     aside #contatos .unidades h1{
         font: 600 1em var(--titulos);
+        text-align: center;
+        padding-top: 10px;
     }
     aside #contatos .unidades p{
-        width: 300px;
-        padding: 5px;
-        text-align: center;
+        width: 100%;
     }
+
     aside #contatos .sociais{
-        text-align: center;
-        margin-top: 20px;
-        margin-left: 40%;
-    }
-    aside #contatos .sociais h1{
         display: none;
-    }
-    aside #contatos .sociais img{
-        width: 25px; height: 25px;
     }
 
     footer .scroll-top{

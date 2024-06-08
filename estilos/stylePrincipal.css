@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'elegante';
-    src: url(../fonts/Elegante\Classica.ttf) format(truetype);
+    src: url(../fonts/EleganteClassica.ttf) format(truetype);
 }
 
 :root{
@@ -331,7 +331,7 @@ aside #contatos .sociais a{
 
 footer .scroll-top {
     position: fixed;
-    bottom: 35px;
+    bottom: 0px;
     right: 30px;
 }
 #botao-top {
