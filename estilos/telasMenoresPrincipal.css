@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'elegante';
-    src: url(../fonts/Elegante\Classica.ttf) format(truetype);
+    src: url(../fonts/EleganteClassica.ttf) format(truetype);
 }
 
 :root{
@@ -15,7 +15,6 @@
 
     body{
         overflow-x: hidden;
-        font-family: ;
     }
     header .menu a{
         text-decoration: underline;
