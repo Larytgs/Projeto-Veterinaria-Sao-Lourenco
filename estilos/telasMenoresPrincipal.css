@@ -4,13 +4,14 @@
 :root{
     --titulos: monospace;
     --paragrafos: Arial, Helvetica, sans-serif;
+    --paragrafosCelular: 'Courier New', Courier, monospace;
 }
 
 @media all and (min-width: 990px) and (max-width: 1115px) { /*para notebooks menores*/
 
     body{
         overflow-x: hidden;
-        font-family: 
+        font-family: 'Courier New', Courier, monospace
     }
     header .menu a{
         text-decoration: underline;
@@ -437,7 +438,7 @@
         margin-left: 40px;
     }
     main .unidades p{
-        font: 100 1em var(--paragrafos);
+        font: 600 1em var(--paragrafosCelular);
         width: 100%;
     }
     main #serviços{
@@ -459,7 +460,7 @@
         margin-left: 15px;
     }
     main #serviços p{
-        font: 100 1em var(--paragrafos);
+        font: 100 1em var(--paragrafosCelular);
         width: 100%;
     }
     
@@ -486,7 +487,7 @@
         text-align: center;
     }
     main #texto2-1 p{
-        font: 100 1em var(--paragrafos);
+        font: 100 1em var(--paragrafosCelular);
         width: 100%;          /*alinhar o texto de dentro*/
         padding: auto;
         padding-top: 20px;
@@ -513,7 +514,7 @@
         text-align: center;
     }
     main #saude p{
-        font: 100 1em var(--paragrafos);
+        font: 100 1em var(--paragrafosCelular);
         width: 100%;          
     }
 
@@ -545,7 +546,7 @@
         margin-left: 25px;
     }
     main #cuidados p{
-        font: 100 1em var(--paragrafos);
+        font: 100 1em var(--paragrafosCelular);
         width: 100%;    /*alinhar o texto de dentro*/
         padding: 0px;
     }
@@ -569,10 +570,10 @@
     }
     main #texto5 #especialistas ul{
         margin-top: 20px;
-        font: 100 1em var(--paragrafos);
+        font: 100 1em var(--paragrafosCelular);
     }
     main #texto5 p{
-        font: 100 1em var(--paragrafos);
+        font: 100 1em var(--paragrafosCelular);
         padding: 0%;
         width: 100%;
     }
@@ -601,7 +602,7 @@
         display: flex;
     }
     main #carteirinha p{
-        font: 100 1em var(--paragrafos);
+        font: 100 1em var(--paragrafosCelular);
         width: 100%;
         padding-top: 5%;
         padding-left: 0%;
@@ -651,7 +652,7 @@
     }
     aside #contatos .unidades p{
         width: 100%;
-        font: 100 1em var(--paragrafos);
+        font: 100 1em var(--paragrafosCelular);
     }
 
     aside #contatos .sociais{
