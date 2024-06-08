@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'caligrafia';
-    src: url(fontes/caligrafia.ttf) format(truetype);
+    src: url(../fonts/caligrafia.ttf) format(truetype);
 }
 
 :root{
