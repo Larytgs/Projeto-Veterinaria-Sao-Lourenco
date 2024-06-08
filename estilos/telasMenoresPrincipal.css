@@ -391,6 +391,9 @@
         margin-top: 20px;
         margin-right: 20px;
     }
+    main{
+        background-color: antiquewhite;
+    }
     main h1{
         font: 100 2em var(--titulos);
     }
