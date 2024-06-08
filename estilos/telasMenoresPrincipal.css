@@ -438,7 +438,7 @@
     main .unidades h1{
         font: 600 1.1em var(--titulos);
         text-align: center;
-        padding-top: 10px;
+        margin-left: 40px;
     }
     main .unidades p{
         font: 600 0.8em var(--paragrafosCelular);
@@ -460,6 +460,7 @@
         font: 600 1.1em var(--titulos);
         text-align: center;
         padding-top: 10px;
+        margin-left: 15px;
     }
     main #serviços p{
         font: 600 0.8em var(--paragrafosCelular);
