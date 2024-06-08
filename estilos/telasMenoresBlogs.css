@@ -1,5 +1,10 @@
 @charset "UTF8";
 
+:root{
+    --titulos: cursive;
+    --paragrafos: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
 @media all and (min-width: 481px) and (max-width: 768px) { /*para tablets*/
 
 }

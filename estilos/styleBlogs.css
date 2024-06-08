@@ -1,14 +1,11 @@
 @charset "UTF8";
 
-@font-face {
-    font-family: 'elegante';
-    src: url(../fonts/EleganteClassica.ttf) format(truetype);
-}
 
 :root{
-    --titulos: 'elegante', Times, serif;
+    --titulos: cursive;
     --paragrafos: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
+
 * {
     margin: 0px;
     padding: 0px;
@@ -49,7 +46,7 @@ header #principal .menu .menu-opcao {
 }
 header #principal .menu a{
     text-decoration: none;
-    font: 600 1.4em var(--titulos);
+    font: 600 1.3em var(--titulos);
     color: black;
     margin-top: 30px;
     margin-right: 40px;
@@ -63,6 +60,9 @@ header #principal .sociais img{
     margin-top: 30px;
 }
 
+header #menuResponsivo{
+    display: none;
+}
 
 header #primeiraimagem{
     position: relative;
@@ -134,17 +134,17 @@ main #foto{
     border-radius: 10px 1px 10px 1px;
 }
 main #texto h1{
-    font: 100 1.4em var(--titulos);
+    font: 100 1.1em var(--titulos);
     padding: 5px;
 }
 main #texto p{
-    font: 100 1.1em var(--paragrafos);
+    font: 100 1em var(--paragrafos);
     padding: 10px;
 }
 main #texto a{
     text-decoration: none;
     color: #025B18;
-    font: 600 1.2em var(--paragrafos);
+    font: 600 1.1em var(--paragrafos);
     padding: 10px;
 }
 main #texto #seta{
@@ -164,7 +164,7 @@ main #textos img{
     border-radius: 10px;
 }
 main #textos h1{
-    font: 100 1.4em var(--titulos);
+    font: 100 1.3em var(--titulos);
     padding: 10px;
     padding-top: 20px;
 }
@@ -238,17 +238,6 @@ aside #contatos .sociais a{
 #botao-top {
     cursor: pointer;
 }
-/*.scroll-top.on {
-    bottom: 44px;
-    opacity: 1;
-    visibility: visible;
-}
-.scroll-top.off {
-    bottom: 44px;
-    opacity: 0;
-    visibility: hidden;
-}
-*/
 
 
 footer{
