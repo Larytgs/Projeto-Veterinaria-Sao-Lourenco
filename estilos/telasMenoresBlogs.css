@@ -87,7 +87,7 @@
         position: absolute;
 
         background-color: rgba(0, 0, 0, 0.904);
-        height: 130px; width: 130px;
+        height: 150px; width: 130px;
         margin-top: 0%;
         margin-left: -10%;
         text-align: center;
@@ -114,7 +114,7 @@
 
 }
 
-@media all and (min-width: 320px ) and (max-width: 480px) { /*para celular*/
+@media all and (min-width: 320px ) and (max-width: 529px) { /*para celular*/
 
     body{
         overflow-x: hidden;
