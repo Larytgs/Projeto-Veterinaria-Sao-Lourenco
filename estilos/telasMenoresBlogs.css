@@ -24,9 +24,6 @@
         margin-top: 30px;
     }
 
-
-
-
 }
 
 @media all and (min-width: 800px) and (max-width: 989px) { /*para tablets grandes*/
@@ -48,11 +45,6 @@
         width: 30px; height: 30px;
         margin-top: 30px;
     }
-
-
-
-
-
 }
 
 @media all and (min-width: 530px) and (max-width: 799px) { /*para tablets pqnos*/
@@ -105,12 +97,6 @@
     #menu a:hover{
         text-decoration: underline;
     }
-
-
-
-
-
-
 
 }
 

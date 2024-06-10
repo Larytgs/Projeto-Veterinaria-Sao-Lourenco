@@ -67,10 +67,10 @@ header .sociais img{
 
 
 main{
-    margin: 0px 50px;
     border: 1px solid black;
     padding: 3px;
     background-color: white;
+    text-align: center;
 
     min-width: 300px;
     max-width: 1000px;
@@ -102,10 +102,8 @@ main #primeiraimagemResponsivo img{
 
 main #texto1{
     box-sizing: content-box; 
-    border: 2px solid red;
-    width: 95%;
-
-    margin: 20px;
+    width: 97.5%;
+    margin: 10px;    
 }
 main .unidades{
     display: flex;
@@ -147,13 +145,17 @@ main #serviços p{
 
 main #texto2{
     background-color: #62C87B;
-    margin: 10px;
-    padding: 20px;
     
     box-sizing: content-box;
-    border: 2px solid blue;
-    width: 93.4%;    /*alinhar a borda de fora*/
-    
+    width: 97.5%;    /*alinhar a borda de fora*/
+    margin: 10px;
+    text-align: left;
+}
+main #texto2-1{
+    box-sizing: border-box;
+    width: 100%;    /*alinhar a borda de fora*/
+    padding: 20px;
+
     display: block;
     columns: 2;
 }
@@ -172,10 +174,8 @@ main #texto2-1 p{
 
 main #texto3{
     box-sizing: content-box; 
-    border: 2px solid red;
-    width: 95%;
-
-    margin: 20px;
+    width: 97.5%;
+    margin: 10px;
 }
 main #texto3 h1{
     text-align: center;
@@ -187,7 +187,6 @@ main #saude{
     
     box-sizing: border-box;
     width: 100%;
-    border: 2px solid blue;
     padding: 10px;
 }
 main #saude img{
@@ -214,11 +213,11 @@ main #saude p{
 
 main #texto4{
     background-color: #62C87B;
-    margin: 10px;
     
     box-sizing: content-box;
-    border: 2px solid blue;
-    width: 97%;    /*alinhar a borda de fora*/
+    width: 97.5%;    /*alinhar a borda de fora*/
+    margin: 10px;
+    text-align: left;
 }
 main #texto4 h1{
     text-align: center;
@@ -249,10 +248,8 @@ main #cuidados p{
 
 main #texto5{
     box-sizing: content-box; 
-    border: 2px solid red;
-    width: 95%;
-
-    margin: 20px;
+    width: 97.5%;
+    margin: 10px;
 }
 main #texto5 h1{
     text-align: center;
@@ -261,27 +258,33 @@ main #especialistas{
     display: block;
     columns: 2;
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
 }
 main #texto5 #especialistas p{
     width: 100%;
 }
 main #texto5 #especialistas ul{
-    margin-left: 25%;
+    list-style-position: inside; /*deixar a lista organizada*/
     margin-top: 20px;
 }
 main #texto5 p{
     padding: 20px 30px;
 }
+main #texto5 #p1{
+    padding: 0%;
+    margin: -10px 10px 0px;
+}
+main #texto5 #p2{
+    padding-top: 0px;
+}
 
 
 main #texto6{
     background-color: #62C87B;
-    margin: 10px;
     
     box-sizing: content-box;
-    border: 2px solid blue;
-    width: 97%;    /*alinhar a borda de fora*/
+    width: 97.5%;    /*alinhar a borda de fora*/
+    margin: 10px;
 }
 main #texto6 h1{
     text-align: center;
@@ -293,16 +296,13 @@ main #carteirinha{
 }
 main #carteirinha p{
     width: 100%;
-    padding-top: 10%;
-    padding-left: 20%;
+    padding: 10% 20% 10%;
     text-align: left;
 }
 main #carteirinha img{
-    width: 150px; 
+    width: 300px; 
     margin-top: 25px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    transform: rotate(10deg);
+    padding-left: 10%;
 }
 
 
@@ -310,7 +310,6 @@ aside{
     background-color: #98F5AF;
 
     box-sizing: content-box; 
-    border: 2px solid red;
     width: 99.7%;
 }
 aside h2{
@@ -320,31 +319,25 @@ aside h2{
 aside #contatos{
     display: flex;
     justify-content: space-between;
-    margin: 10px;
-
+    margin: 10px 20px;
     box-sizing: border-box;
-    width: 98.5%;
+    width: 95%;
 }
 aside #contatos #logo img{
     width: 110px; height: 110px;
-    margin-top: 40%;
-    margin-left: 120%;
+    margin-top: 20%;
+    padding: 20px;
 }
 
 aside #contatos .unidades{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 10px;
+
+    box-sizing: border-box;
 }
-aside #contatos .unidades #boaV{
-    padding-right: 40px;
-}
-aside #contatos .unidades h1{
-    padding-bottom: 10px;
-    text-align: center;
+aside #contatos .unidades div{
+    padding: 10px 40px;
 }
 aside #contatos .unidades p{
     font: 100 0.9em var(--paragrafos);
@@ -357,17 +350,18 @@ aside #contatos .unidades img{
 }
 
 aside #contatos .sociais{
-    margin-right: 70px;
-    margin-top: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 5%;
+    padding: 15px;
 }
 aside #contatos .sociais h1{
-    margin-left: -20px;
     font-family: var(--titulos);
     font: 100;
 }
 aside #contatos .sociais img{
     width: 35px; height: 35px;
-    margin-top: 10px;
+    padding-top: 10px;
 }
 aside #contatos .sociais a{
     display: inline-flex;
