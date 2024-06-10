@@ -140,11 +140,15 @@ main #serviços p{
 
 
 main #texto2{
-    margin: 10px;
     background-color: #62C87B;
-    border-radius: 10px;
-    padding: 20px 50px 20px 50px;
-
+    margin: 0%;
+    margin-left: 0%;
+    padding: 0%;
+    padding: 10px 30px 15px;
+    
+    box-sizing: content-box;
+    width: 93.4%;    /*alinhar a borda de fora*/
+    
     display: block;
     columns: 2;
 }
@@ -190,10 +194,15 @@ main #saude p{
 
 
 main #texto4{
-    margin: 10px;
     background-color: #62C87B;
-    border-radius: 10px;
-    padding: 20px 50px 20px 50px;
+    margin: 0%;
+    margin-left: 0%;
+    padding: 0%;
+    padding: 10px 30px 15px;
+    
+    box-sizing: content-box;
+    width: 93.4%;    /*alinhar a borda de fora*/
+    
 }
 main #texto4 h1{
     text-align: center;
@@ -207,9 +216,9 @@ main #cuidados img{
     width: 130px; 
     padding-top: 20px;
 }
-main #texto4 #cuidados h1{
-    padding-top: 10px;
+main #texto4 #cuidados h2{
     text-align: left;
+    width: 60%;
 }
 main #cuidados p{
     width: 420px;
