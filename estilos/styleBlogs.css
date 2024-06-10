@@ -1,9 +1,14 @@
 @charset "UTF8";
 
 
+@font-face {
+    font-family: 'caligrafia2';
+    src: url(../fonts/Cream\ Cake.otf) format(opentype);
+}
+
 :root{
-    --titulos: cursive;
-    --paragrafos: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    --titulos: 'caligrafia2';
+    --paragrafos: Arial, Verdana, sans-serif;
 }
 
 * {
@@ -19,43 +24,43 @@ body{
 }
 
 header{
+    position: sticky; /*grudavel*/
+    top: -1px;
     background-color: #98F5AF;
     padding: 5px;
     height: 150%;
     box-shadow: 0px 0px 10px black;
 
-    display: block;
 }
 header #principal{
-    position: sticky; /*grudavel*/
-    top: -1px;
     display: flex;
     justify-content: space-between;
 }
-header #principal #logo img{
+header #logo img{
     width: 95px; height: 95px;
-    margin-left: 30px;
-    margin-top: 5px;
+    margin: 5px 0px 0px 30px;
 }
 
-header #principal .menu .menu-opcao {
+header #menuResponsivo{
+    display: none;
+}
+header .menu .menu-opcao {
     display: inline-block;
 }
-#principal .effect {
+.effect {
     transition: .5s;
 }
-header #principal .menu a{
+header .menu a{
     text-decoration: none;
-    font: 600 1.3em var(--titulos);
+    font: 100 2.5em var(--titulos);
     color: black;
-    margin-top: 30px;
-    margin-right: 40px;
+    margin: 30px 40px 0px 0px;
 }
-header #principal .menu a:hover{
+header .menu a:hover{
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.795);
 }
 
-header #principal .sociais img{
+header .sociais img{
     width: 35px; height: 35px;
     margin-top: 30px;
 }
@@ -67,6 +72,12 @@ header #menuResponsivo{
 header #primeiraimagem{
     position: relative;
     text-align: center;
+}
+header #primeiraimagem h1{
+    font: 100 2.5em var(--titulos);
+}
+header #primeiraimagem h2{
+    font: 100 2em var(--titulos);
 }
 header #primeiraimagem img{
     width: 80%;
@@ -89,6 +100,7 @@ header #primeiraimagem #home{ /*Esse é do site blog-pets*/
     left: 160px;
     top: 255px;
 }
+
 header #primeiraimagem #opc1{ /*Esse é dos proximos blogs*/
     position: absolute;
     font: 100 1em var(--titulos);
@@ -104,19 +116,30 @@ header #primeiraimagem #opc2{ /*Esse é dos proximos blogs*/
     top: 255px;
 }
 
-
 main{
-    margin: 0px 50px;
-    border: 1px solid black;
-    padding: 3px;
     background-color: white;
+    text-align: center;
 
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
+    padding: 3px;
+
+    border: 1px solid black;
     box-shadow: 0px 0px 10px black;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+main h1{
+    font: 100 2.5em var(--titulos);
+    background-image: linear-gradient(to right, #62C87B, white);
+}
+main h2{
+    font: 100 2em var(--titulos);
+    background-image: linear-gradient(to right, #62C87B, white);
+}
+main p{
+    font: 100 1em var(--paragrafos);
 }
 
 main .blogTextos{                  /*Esse é do site blog-pets (FIXO)*/

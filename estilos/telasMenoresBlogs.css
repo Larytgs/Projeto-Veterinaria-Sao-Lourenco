@@ -1,8 +1,13 @@
 @charset "UTF8";
 
+@font-face {
+    font-family: 'caligrafia2';
+    src: url(../fonts/Cream\ Cake.otf) format(opentype);
+}
+
 :root{
-    --titulos: cursive;
-    --paragrafos: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    --titulos: 'caligrafia2';
+    --paragrafos: Arial, Verdana, sans-serif;
 }
 
 @media all and (min-width: 990px) and (max-width: 1115px) { /*para notebooks menores*/
