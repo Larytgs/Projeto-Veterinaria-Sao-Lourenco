@@ -166,6 +166,10 @@
         width: 120px;
     }
 
+    #texto5 ul{
+        padding-top: 20px;
+    }
+
     #texto6 #carteirinha p{
         padding-left: 20%;
     }
@@ -174,9 +178,6 @@
         padding-left: 20%;
     }
 
-    aside{
-        width: 99%;
-    }
     aside #contatos #logo img{
         display: none;
     }
@@ -341,7 +342,6 @@
         columns: 1;
 
         box-sizing: border-box;
-        border: 2px solid blue;
         width: 99%;  /*alinhar a div de dentro*/
     }
     main #texto2-1 p{
@@ -355,6 +355,9 @@
 
         box-sizing: content-box;
         width: 99%;    /*alinhar a borda de fora*/
+    }
+    main #texto3 h1{
+        margin: 0px 10px;
     }
     main #saude{
         display: inline-block;
@@ -375,13 +378,18 @@
         padding: 0%;
         padding: 15px 20px;
     }
+    main #texto4 h1{
+        margin: 0px 10px;
+    }
+    main #texto4 h2{
+        margin-top: 5px;
+    }
     main #cuidados{
         display: inline-block;
         text-align: left;
         columns: 1;
 
         box-sizing: border-box;
-        border: 2px solid blue;
         width: 104%;    /*alinhar a div de dentro*/
         padding: 10px 15px;
     }
@@ -398,6 +406,9 @@
         box-sizing: content-box;
         width: 99%;    /*alinhar a borda de fora*/
     }
+    main #texto5 h1{
+        margin: 0px 10px;
+    }
     main #especialistas{
         margin: 10px;
         display: inline;
@@ -407,7 +418,7 @@
         width: 90%;
     }
     main #texto5 #especialistas ul{
-        margin-top: 0px;
+        margin-top: 10px;
     }
     main #texto5 p{
         padding: 0px 30px;
@@ -418,31 +429,26 @@
 
 
     main #texto6{
-        margin: 0%;
-        margin-left: -2%;
+        margin: -5.6%;
+        margin-top: 20px;
         margin-bottom: 10px;
         padding: 0%;
-        padding-top: 10px;
-        padding-right: 20px;
-        padding-bottom: 20px;
+        padding: 15px 20px;
     }
     main #carteirinha{
         display: flex;
     }
     main #carteirinha p{
         width: 100%;
-        padding-top: 5%;
-        padding-left: 0%;
+        padding: 0%;
+        padding: 10px;
         text-align: center;
     }
     main #carteirinha img{
         display: none;
     }
 
-    
-    aside{
-        width: 99%;
-    }
+
     aside #contatos{
         margin: 10px;
         width: 95%;

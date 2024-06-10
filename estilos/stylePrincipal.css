@@ -310,7 +310,7 @@ aside{
     background-color: #98F5AF;
 
     box-sizing: content-box; 
-    width: 99.7%;
+    width: 100%;
 }
 aside h2{
     font: 100 2em var(--titulos);
