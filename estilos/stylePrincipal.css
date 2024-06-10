@@ -36,8 +36,7 @@ header{
 }
 header #logo img{
     width: 95px; height: 95px;
-    margin-left: 30px;
-    margin-top: 5px;
+    margin: 5px 0px 0px 30px;
 }
 
 header #menuResponsivo{
@@ -53,8 +52,7 @@ header .menu a{
     text-decoration: none;
     font: 100 2.5em var(--titulos);
     color: black;
-    margin-top: 30px;
-    margin-right: 40px;
+    margin: 30px 40px 0px 0px;
 }
 header .menu a:hover{
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.795);
@@ -67,14 +65,15 @@ header .sociais img{
 
 
 main{
-    border: 1px solid black;
-    padding: 3px;
     background-color: white;
     text-align: center;
 
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
+    padding: 3px;
+
+    border: 1px solid black;
     box-shadow: 0px 0px 10px black;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -117,9 +116,6 @@ main .unidades{
 main .unidades img{
     width: 25px;
 }
-main .unidades h2{
-    text-align: center;
-}
 main .unidades p{
     width: 100%;
     padding: 5px;
@@ -134,9 +130,6 @@ main #serviços{
     box-sizing: border-box; 
     width: 90%;
 }
-main #serviços h2{
-    text-align: center;
-}
 main #serviços p{
     width: 100%;
     padding: 5px;
@@ -145,11 +138,11 @@ main #serviços p{
 
 main #texto2{
     background-color: #62C87B;
+    text-align: left;
     
     box-sizing: content-box;
     width: 97.5%;    /*alinhar a borda de fora*/
     margin: 10px;
-    text-align: left;
 }
 main #texto2-1{
     box-sizing: border-box;
@@ -164,7 +157,6 @@ main #texto2-1 img{
 }
 main #texto2-1 h2{
     width: 70%;
-    text-align: left;
 }
 main #texto2-1 p{
     width: 100%;
@@ -176,14 +168,14 @@ main #texto3{
     box-sizing: content-box; 
     width: 97.5%;
     margin: 10px;
+    text-align: center;
 }
 main #texto3 h1{
-    text-align: center;
+    margin-top: 20px;
 }
 main #saude{
     display: flex;
     justify-content: space-between;
-    text-align: center;
     
     box-sizing: border-box;
     width: 100%;
@@ -191,33 +183,29 @@ main #saude{
 }
 main #saude img{
     width: 140px;
-    padding: 10px;
-}
-main #saude h1{
     padding-top: 10px;
-    text-align: center;
 }
 main #saude h2{
-    padding: 5px;
+    margin: 5px;
+    border: 2px solid red;
 }
 main #saude h3{
-    align-items: center;
-    margin-top: 500%;
+    padding: 200px 20px 0px;
 }
 main #saude p{
     width: 100%;
-    padding-top: 20px;
+    padding: 20px 0px;
 }
 
 
 
 main #texto4{
     background-color: #62C87B;
+    text-align: left;
     
     box-sizing: content-box;
     width: 97.5%;    /*alinhar a borda de fora*/
     margin: 10px;
-    text-align: left;
 }
 main #texto4 h1{
     text-align: center;
@@ -237,12 +225,11 @@ main #cuidados img{
     padding-top: 20px;
 }
 main #texto4 #cuidados h2{
-    text-align: left;
-    width: 60%;
+    width: 70%;
 }
 main #cuidados p{
     width: 95%;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 
@@ -281,13 +268,11 @@ main #texto5 #p2{
 
 main #texto6{
     background-color: #62C87B;
+    text-align: center;
     
     box-sizing: content-box;
     width: 97.5%;    /*alinhar a borda de fora*/
     margin: 10px;
-}
-main #texto6 h1{
-    text-align: center;
 }
 main #carteirinha{
     display: block;
@@ -319,7 +304,8 @@ aside h2{
 aside #contatos{
     display: flex;
     justify-content: space-between;
-    margin: 10px 20px;
+    margin: 0px 20px;
+    
     box-sizing: border-box;
     width: 95%;
 }
@@ -346,7 +332,8 @@ aside #contatos .unidades p{
     text-align: center;
 }
 aside #contatos .unidades img{
-    width: 25px; height: 25px;
+    width: 25px; 
+    height: 25px;
 }
 
 aside #contatos .sociais{

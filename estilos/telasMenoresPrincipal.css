@@ -10,7 +10,7 @@
     --paragrafos: Arial, Verdana, sans-serif;
 }
 
-@media all and (min-width: 900px) and (max-width: 1080px) {
+@media all and (min-width: 900px) and (max-width: 1100px) {
 
     header .menu a{
         font: 100 2em var(--titulos);
