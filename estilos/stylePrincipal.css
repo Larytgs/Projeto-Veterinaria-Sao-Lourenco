@@ -101,25 +101,29 @@ main #primeiraimagemResponsivo img{
 
 
 main #texto1{
-    padding: 20px 50px;
-    margin: 10px;
-    border-radius: 10px;
+    box-sizing: content-box; 
+    border: 2px solid red;
+    width: 95%;
+
+    margin: 20px;
 }
 main .unidades{
     display: flex;
     justify-content: space-between;
     text-align: center;
     padding: 20px 50px 10px 50px;
+
+    box-sizing: border-box; 
+    width: 90%;
 }
 main .unidades img{
     width: 25px;
 }
-main .unidades h1{
-    padding-bottom: 10px;
+main .unidades h2{
     text-align: center;
 }
 main .unidades p{
-    width: 350px;
+    width: 100%;
     padding: 5px;
 }
 
@@ -128,25 +132,26 @@ main #serviços{
     justify-content: space-between;
     text-align: center;
     padding: 20px 50px 10px 50px;
+
+    box-sizing: border-box; 
+    width: 90%;
 }
-main #serviços h1{
-    padding-bottom: 10px;
+main #serviços h2{
     text-align: center;
 }
 main #serviços p{
-    width: 350px;
+    width: 100%;
     padding: 5px;
 }
 
 
 main #texto2{
     background-color: #62C87B;
-    margin: 0%;
-    margin-left: 0%;
-    padding: 0%;
-    padding: 10px 30px 15px;
+    margin: 10px;
+    padding: 20px;
     
     box-sizing: content-box;
+    border: 2px solid blue;
     width: 93.4%;    /*alinhar a borda de fora*/
     
     display: block;
@@ -154,20 +159,23 @@ main #texto2{
 }
 main #texto2-1 img{
     width: 130px; 
-    padding-top: 20px;
 }
-main #texto2-1 h1{
-    padding-top: 10px;
+main #texto2-1 h2{
+    width: 70%;
     text-align: left;
 }
 main #texto2-1 p{
-    width: 420px;
+    width: 100%;
     padding-top: 20px;
 }
 
 
 main #texto3{
-    padding: 50px 40px;
+    box-sizing: content-box; 
+    border: 2px solid red;
+    width: 95%;
+
+    margin: 20px;
 }
 main #texto3 h1{
     text-align: center;
@@ -175,19 +183,30 @@ main #texto3 h1{
 main #saude{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     text-align: center;
-    padding: 20px 50px 10px 50px;
+    
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid blue;
+    padding: 10px;
 }
 main #saude img{
-    width: 150px;
+    width: 140px;
+    padding: 10px;
 }
 main #saude h1{
     padding-top: 10px;
     text-align: center;
 }
+main #saude h2{
+    padding: 5px;
+}
+main #saude h3{
+    align-items: center;
+    margin-top: 500%;
+}
 main #saude p{
-    width: 350px;
+    width: 100%;
     padding-top: 20px;
 }
 
@@ -195,22 +214,24 @@ main #saude p{
 
 main #texto4{
     background-color: #62C87B;
-    margin: 0%;
-    margin-left: 0%;
-    padding: 0%;
-    padding: 10px 30px 15px;
+    margin: 10px;
     
     box-sizing: content-box;
-    width: 93.4%;    /*alinhar a borda de fora*/
-    
+    border: 2px solid blue;
+    width: 97%;    /*alinhar a borda de fora*/
 }
 main #texto4 h1{
     text-align: center;
 }
 main #cuidados{
+    background-color: #62C87B;
+    
+    box-sizing: border-box;
+    width: 100%;    /*alinhar a borda de fora*/
+    padding: 20px;
+    
     display: block;
     columns: 2;
-    width: 900px;
 }
 main #cuidados img{
     width: 130px; 
@@ -221,13 +242,17 @@ main #texto4 #cuidados h2{
     width: 60%;
 }
 main #cuidados p{
-    width: 420px;
+    width: 95%;
     padding-top: 20px;
 }
 
 
 main #texto5{
-    padding: 50px 50px;
+    box-sizing: content-box; 
+    border: 2px solid red;
+    width: 95%;
+
+    margin: 20px;
 }
 main #texto5 h1{
     text-align: center;
@@ -239,7 +264,7 @@ main #especialistas{
     padding: 20px;
 }
 main #texto5 #especialistas p{
-    width: 400px;
+    width: 100%;
 }
 main #texto5 #especialistas ul{
     margin-left: 25%;
@@ -251,10 +276,12 @@ main #texto5 p{
 
 
 main #texto6{
-    margin: 10px;
     background-color: #62C87B;
-    border-radius: 10px;
-    padding: 20px 50px 20px 50px;
+    margin: 10px;
+    
+    box-sizing: content-box;
+    border: 2px solid blue;
+    width: 97%;    /*alinhar a borda de fora*/
 }
 main #texto6 h1{
     text-align: center;
@@ -265,9 +292,9 @@ main #carteirinha{
     text-align: center;
 }
 main #carteirinha p{
-    width: 370px;
+    width: 100%;
     padding-top: 10%;
-    padding-left: 30%;
+    padding-left: 20%;
     text-align: left;
 }
 main #carteirinha img{
@@ -281,7 +308,10 @@ main #carteirinha img{
 
 aside{
     background-color: #98F5AF;
-    padding-bottom: 30px;  
+
+    box-sizing: content-box; 
+    border: 2px solid red;
+    width: 99.7%;
 }
 aside h2{
     font: 100 2em var(--titulos);
@@ -290,7 +320,10 @@ aside h2{
 aside #contatos{
     display: flex;
     justify-content: space-between;
-    padding: 30px 80px 20px 50px;
+    margin: 10px;
+
+    box-sizing: border-box;
+    width: 98.5%;
 }
 aside #contatos #logo img{
     width: 110px; height: 110px;
@@ -328,8 +361,9 @@ aside #contatos .sociais{
     margin-top: 60px;
 }
 aside #contatos .sociais h1{
-    font: 600 1em var(--titulos);
     margin-left: -20px;
+    font-family: var(--titulos);
+    font: 100;
 }
 aside #contatos .sociais img{
     width: 35px; height: 35px;
