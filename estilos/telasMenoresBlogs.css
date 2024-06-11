@@ -36,15 +36,10 @@
         margin-top: 30px;
     }
 
-    #texto3 #saude h3{
-        margin-top: 550%;
-    }
-    #texto4 #cuidados h2{              /*PARTE Q TEMMUDAR*/
-        width: 55%;
-    }
-    #cuidados img{
-        width: 120px; 
-    }
+
+    
+
+
 
     aside #contatos #logo img{
         display: none;
@@ -83,6 +78,9 @@
         width: 35px; height: 35px;
         margin-top: 30px;
     }
+
+
+
 
 
 
@@ -165,6 +163,8 @@
     #menu a:hover{
         text-decoration: underline;
     }
+
+
 
 
 
