@@ -114,14 +114,13 @@ main #primeiraimagem #opc2{ /*Esse é dos proximos blogs   - BLOGS*/
 }
 
 main{
-    background-color: white;
-    text-align: center;
-
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
     padding: 3px;
 
+    background-color: white;
+    text-align: center;
     border: 1px solid black;
     box-shadow: 0px 0px 10px black;
     border-bottom-left-radius: 10px;
