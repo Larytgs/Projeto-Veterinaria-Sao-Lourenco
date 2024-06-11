@@ -69,55 +69,12 @@ header #menuResponsivo{
     display: none;
 }
 
-main #primeiraimagem img{
-    width: 100%;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-main #primeiraimagem h1{
-    position: absolute;
-    font: 100 3.5em var(--titulos);
-    text-align: left;
-    color: #98F5AF;
-    left: 250px;
-    top: 200px;
-}
-main #primeiraimagem #home{ /*Esse é do site principal blog-pets  -  HOME*/
-    position: absolute;
-    font: 100 1.6em var(--titulos);
-    color: black;
-    left: 180px;
-    top: 350px;
-}
-
-main #primeiraimagem #nome{ /*Esse é dos proximos blogs  -  NOME PRINCIPAL*/
-    position: absolute;
-    font: 100 3em var(--titulos);
-    text-align: left;
-    color: #98F5AF;
-    left: 200px;
-    top: 200px;
-}
-main #primeiraimagem #opc1{ /*Esse é dos proximos blogs  -  HOME*/
-    position: absolute;
-    font: 100 1.5em var(--titulos);
-    color: black;
-    left: 190px;
-    top: 350px;
-}
-main #primeiraimagem #opc2{ /*Esse é dos proximos blogs   - BLOGS*/
-    position: absolute;
-    font: 100 1.5em var(--titulos);
-    color: black;
-    left: 280px;
-    top: 350px;
-}
-
 main{
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
     padding: 3px;
+
 
     background-color: white;
     text-align: center;
@@ -125,6 +82,51 @@ main{
     box-shadow: 0px 0px 10px black;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+main .primeiraimagem img{
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main .primeiraimagem h1{
+    position: absolute;
+    font: 100 3.5em var(--titulos);
+    text-align: left;
+    color: #98F5AF;
+    left: 250px;
+    top: 200px;
+}
+main .primeiraimagem #home h1{ /*Esse é do site principal blog-pets  -  HOME*/
+    position: absolute;
+    font: 100 3em var(--titulos);
+    text-decoration: underline;
+    color: #98F5AF;
+    left: 200px;
+    top: 350px;
+}
+
+main .primeiraimagem #nome{ /*Esse é dos proximos blogs  -  NOME PRINCIPAL*/
+    position: absolute;
+    font: 100 3em var(--titulos);
+    text-align: left;
+    color: #98F5AF;
+    left: 200px;
+    top: 200px;
+}
+main .primeiraimagem #opc1 h2{ /*Esse é dos proximos blogs  -  HOME*/
+    position: absolute;
+    font: 100 2.5em var(--titulos);
+    color: #98F5AF;
+    left: 190px;
+    top: 350px;
+}
+main .primeiraimagem #opc2 h2{ /*Esse é dos proximos blogs   - BLOGS*/
+    position: absolute;
+    font: 100 2.5em var(--titulos);
+    color: #98F5AF;
+    left: 280px;
+    top: 350px;
 }
 
 main .blogTextos{                  /*Esse é do site principal blog-pets (FIXO)*/

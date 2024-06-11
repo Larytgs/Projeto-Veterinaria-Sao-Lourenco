@@ -10,17 +10,64 @@
     --paragrafos: Arial, Verdana, sans-serif;
 }
 
-@media all and (min-width: 900px) and (max-width: 1100px) {
+@media all and (min-width: 1010px) and (max-width: 1115px) {
 
     header .menu a{
         font: 100 2em var(--titulos);
     }
-}
-@media all and (min-width: 800px) and (max-width: 989px) { /*para tablets grandes*/
 
-    body{
-        overflow-x: hidden;
+    main .primeiraimagem h1{   /*Esse é do site principal blog-pets  -  HOME*/
+        left: 60px;
+        top: 200px;
     }
+    main .primeiraimagem #home h1{ 
+        left: 60px;
+        top: 350px;
+    }
+
+    main .primeiraimagem #nome{ /*Esse é dos proximos blogs  -  NOME PRINCIPAL*/
+        left: 60px;
+        top: 200px;
+    }
+    main .primeiraimagem #opc1 h2{ /*Esse é dos proximos blogs  -  HOME*/
+        left: 60px;
+        top: 350px;
+    }
+    main .primeiraimagem #opc2 h2{ /*Esse é dos proximos blogs   - BLOGS*/
+        left: 150px;
+        top: 350px;
+    }
+}
+@media all and (min-width: 990px) and (max-width: 1009px) { 
+
+    header .menu a{
+        font: 100 2em var(--titulos);
+    }
+
+    main .primeiraimagem h1{
+        left: 20px;
+        top: 200px;
+    }
+    main .primeiraimagem #home h1{ /*Esse é do site principal blog-pets  -  HOME*/
+        left: 60px;
+        top: 330px;
+    }
+
+    main .primeiraimagem #nome{ /*Esse é dos proximos blogs  -  NOME PRINCIPAL*/
+        left: 60px;
+        top: 200px;
+    }
+    main .primeiraimagem #opc1 h2{ /*Esse é dos proximos blogs  -  HOME*/
+        left: 50px;
+        top: 350px;
+    }
+    main .primeiraimagem #opc2 h2{ /*Esse é dos proximos blogs   - BLOGS*/
+        left: 140px;
+        top: 350px;
+    }
+}
+
+@media all and (min-width: 960px) and (max-width: 989px) {
 
     header #logo img{
         width: 85px; height: 85px;
@@ -36,8 +83,72 @@
         margin-top: 30px;
     }
 
-
+    main .primeiraimagem h1{ /*Esse é do site principal blog-pets  -  HOME*/
+        left: 20px;
+        top: 200px;
+    }
+    main .primeiraimagem #home h1{ 
+        left: 60px;
+        top: 330px;
+    }
     
+    main .primeiraimagem #nome{ /*Esse é dos proximos blogs  -  NOME PRINCIPAL*/
+        left: 20px;
+        top: 160px;
+    }
+    main .primeiraimagem #opc1 h2{ /*Esse é dos proximos blogs  -  HOME*/
+        left: 20px;
+        top: 320px;
+    }
+    main .primeiraimagem #opc2 h2{ /*Esse é dos proximos blogs   - BLOGS*/
+        left: 110px;
+        top: 320px;
+    }
+}
+
+@media all and (min-width: 800px) and (max-width: 989px) { /*para tablets grandes*/
+
+    body{
+        overflow-x: hidden;
+    }
+    header #logo img{
+        width: 85px; height: 85px;
+    }
+    header .menu a{
+        font: 100 2em var(--titulos);
+        text-decoration: underline;
+        margin-top: 35px;
+        margin-right: 5px;
+    }
+    header .sociais img{
+        width: 30px; height: 30px;
+        margin-top: 30px;
+    }
+
+    main .primeiraimagem h1{  /*Esse é do site principal blog-pets  -  HOME*/
+        left: 20px;
+        top: 170px;
+        font-size: 2.8em;
+    }
+    main .primeiraimagem #home h1{ 
+        left: 20px;
+        top: 290px;
+        font-size: 2.8em;
+    }
+    
+    main .primeiraimagem #nome{ /*Esse é dos proximos blogs  -  NOME PRINCIPAL*/
+        left: 20px;
+        top: 170px;
+        font-size: 2.5em;
+    }
+    main .primeiraimagem #opc1 h2{ /*Esse é dos proximos blogs  -  HOME*/
+        left: 20px;
+        top: 290px;
+    }
+    main .primeiraimagem #opc2 h2{ /*Esse é dos proximos blogs   - BLOGS*/
+        left: 110px;
+        top: 290px;
+    }
 
 
 
@@ -77,6 +188,33 @@
     header .sociais img{
         width: 35px; height: 35px;
         margin-top: 30px;
+    }
+
+    main .primeiraimagem h1{  /*Esse é do site principal blog-pets  -  HOME*/
+        left: 20px;
+        top: 170px;
+        font-size: 2.8em;
+    }
+    main .primeiraimagem #home h1{ 
+        left: 20px;
+        top: 250px;
+        font-size: 2.8em;
+    }
+    main .primeiraimagemNONE{
+        display: none;
+    }
+    main .primeiraimagem #nome{ /*Esse é dos proximos blogs  -  NOME PRINCIPAL*/
+        left: 20px;
+        top: 170px;
+        font-size: 2.5em;
+    }
+    main .primeiraimagem #opc1 h2{ /*Esse é dos proximos blogs  -  HOME*/
+        left: 20px;
+        top: 290px;
+    }
+    main .primeiraimagem #opc2 h2{ /*Esse é dos proximos blogs   - BLOGS*/
+        left: 110px;
+        top: 290px;
     }
 
 
