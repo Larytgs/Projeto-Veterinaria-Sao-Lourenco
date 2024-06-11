@@ -176,52 +176,86 @@
     body{
         overflow-x: hidden;
     }
-    header .menu a{
-        text-decoration: underline;
-        color: black;
-        margin-top: 30px;
-        margin-right: 5px;
+
+    header{
+        display: flex;
+        justify-content: space-between;
     }
-    header .menu a:hover{
-        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.795);
+    header #logo img{
+        width: 95px; height: 95px;
+    }
+    header .menu{
+        display: none;
     }
     header .sociais img{
-        width: 35px; height: 35px;
+        display: none;
+    }
+    
+    header #menuResponsivo{
+        display: block;
+    }
+    header #menuResponsivo img{
+        width: 30px; height: 30px;
+        cursor: pointer;
         margin-top: 30px;
+        margin-right: 20px;
+    }
+    header #menuResponsivo #menu{
+        display: none;
+    }
+    header #menuResponsivo:hover #menu{
+        display: block;
+        position: absolute;
+
+        background-color: #025B18;
+        height: 150px; width: 130px;
+        margin-top: 0%;
+        margin-left: -10%;
+        text-align: center;
+    }
+    #menu a{
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        width: 100%;
+        padding-top: 10px;
+        font: 100 0.9em var(--paragrafos);
+        color: white;
+    }
+    #menu a:hover{
+        text-decoration: underline;
     }
 
-    main .primeiraimagem h1{  /*Esse é do site principal blog-pets  -  HOME*/
-        left: 20px;
-        top: 170px;
-        font-size: 2.8em;
-    }
-    main .primeiraimagem #home h1{ 
-        left: 20px;
-        top: 250px;
-        font-size: 2.8em;
-    }
     main .primeiraimagemNONE{
         display: none;
     }
-    main .primeiraimagem #nome{ /*Esse é dos proximos blogs  -  NOME PRINCIPAL*/
-        left: 20px;
-        top: 170px;
-        font-size: 2.5em;
+
+    main .blogTextos{                  /*Esse é do site principal blog-pets (FIXO)*/
+        display: inline-block;
+    
+        box-sizing: content-box;
+        width: 98%;
     }
-    main .primeiraimagem #opc1 h2{ /*Esse é dos proximos blogs  -  HOME*/
-        left: 20px;
-        top: 290px;
+    main #texto{      
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0%;
+        margin-bottom: 20px;
     }
-    main .primeiraimagem #opc2 h2{ /*Esse é dos proximos blogs   - BLOGS*/
-        left: 110px;
-        top: 290px;
+    main p{
+        padding: 0%;
+        width: 100%;
+        margin: 15px 0px;
     }
 
-
-
-
-
-
+    main #textos{                 /*Esse é dos proximos blogs (FIXO)*/    
+        box-sizing: content-box;
+        width: 99.5%;
+    }
+    main #textos p{
+        width: 91.6%;
+    }
 
     aside #contatos #logo img{
         display: none;
