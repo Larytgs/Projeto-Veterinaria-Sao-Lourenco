@@ -69,51 +69,48 @@ header #menuResponsivo{
     display: none;
 }
 
-header #primeiraimagem{
-    position: relative;
-    text-align: center;
-}
-header #primeiraimagem h1{
-    font: 100 2.5em var(--titulos);
-}
-header #primeiraimagem h2{
-    font: 100 2em var(--titulos);
-}
-header #primeiraimagem img{
-    width: 80%;
+main #primeiraimagem img{
+    width: 100%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-header #primeiraimagem h1{
+main #primeiraimagem h1{
     position: absolute;
-    font: 100 1.4em var(--titulos);
+    font: 100 3.5em var(--titulos);
     text-align: left;
     color: #98F5AF;
-    left: 180px;
-    top: 115px;
-}
-
-header #primeiraimagem #home{ /*Esse é do site blog-pets*/
-    position: absolute;
-    font: 100 1em var(--titulos);
-    color: black;
-    left: 160px;
-    top: 255px;
-}
-
-header #primeiraimagem #opc1{ /*Esse é dos proximos blogs*/
-    position: absolute;
-    font: 100 1em var(--titulos);
-    color: black;
-    left: 160px;
-    top: 255px;
-}
-header #primeiraimagem #opc2{ /*Esse é dos proximos blogs*/
-    position: absolute;
-    font: 100 1em var(--titulos);
-    color: black;
     left: 250px;
-    top: 255px;
+    top: 200px;
+}
+main #primeiraimagem #home{ /*Esse é do site principal blog-pets  -  HOME*/
+    position: absolute;
+    font: 100 1.6em var(--titulos);
+    color: black;
+    left: 180px;
+    top: 350px;
+}
+
+main #primeiraimagem #nome{ /*Esse é dos proximos blogs  -  NOME PRINCIPAL*/
+    position: absolute;
+    font: 100 3em var(--titulos);
+    text-align: left;
+    color: #98F5AF;
+    left: 200px;
+    top: 200px;
+}
+main #primeiraimagem #opc1{ /*Esse é dos proximos blogs  -  HOME*/
+    position: absolute;
+    font: 100 1.5em var(--titulos);
+    color: black;
+    left: 190px;
+    top: 350px;
+}
+main #primeiraimagem #opc2{ /*Esse é dos proximos blogs   - BLOGS*/
+    position: absolute;
+    font: 100 1.5em var(--titulos);
+    color: black;
+    left: 280px;
+    top: 350px;
 }
 
 main{
@@ -130,45 +127,43 @@ main{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-main h1{
-    font: 100 2.5em var(--titulos);
-    background-image: linear-gradient(to right, #62C87B, white);
+
+main .blogTextos{                  /*Esse é do site principal blog-pets (FIXO)*/
+    display: flex;
+
+    box-sizing: content-box;
+    border: 2px solid red;
+    width: 100%;
 }
-main h2{
+main #texto{      
+    background-color: #62C87B;
+    border-radius: 20px 1px 40px 1px;
+
+    box-sizing: border-box;
+    border: 2px solid blue;
+    width: 100%;
+
+    margin: 15px;
+    padding: 10px;
+}
+main #texto h1{
     font: 100 2em var(--titulos);
     background-image: linear-gradient(to right, #62C87B, white);
 }
 main p{
     font: 100 1em var(--paragrafos);
-}
-
-main .blogTextos{                  /*Esse é do site blog-pets (FIXO)*/
-    display: flex;
-}
-main #texto{      
-    width: 450px;
-    margin: 15px;
-    padding: 10px;
-    background-color: #62C87B;
-    border-radius: 20px 1px 40px 1px;
-}
-main #foto{
-    width: 450px; height: 250px;
-    border-radius: 10px 1px 10px 1px;
-}
-main #texto h1{
-    font: 100 1.1em var(--titulos);
     padding: 5px;
-}
-main #texto p{
-    font: 100 1em var(--paragrafos);
-    padding: 10px;
+    padding-top: 10px;
+    width: 100%;
 }
 main #texto a{
     text-decoration: none;
     color: #025B18;
     font: 600 1.1em var(--paragrafos);
-    padding: 10px;
+}
+main #foto{
+    width: 450px; height: 250px;
+    border-radius: 10px 1px 10px 1px;
 }
 main #texto #seta{
     display: inline;
@@ -177,85 +172,107 @@ main #texto #seta{
 
 
 main #textos{                 /*Esse é dos proximos blogs (FIXO)*/
-    margin: 10px;
     background-color: #62C87B;
     border-radius: 10px;
     padding: 30px 50px 30px 50px;
+    margin: 0%;
+    padding: 0%;
+
+    box-sizing: content-box;
+    border: 2px solid red;
+    width: 99.6%;
+}
+main #textos div{
+    box-sizing: border-box;
+    border: 2px solid yellow;
+    width: 100%;
+    
+    text-align: center;
 }
 main #textos img{
     width: 100%;
     border-radius: 10px;
 }
 main #textos h1{
-    font: 100 1.3em var(--titulos);
+    font: 100 2.2em var(--titulos);
     padding: 10px;
     padding-top: 20px;
 }
 main #textos p{
     font: 100 1em var(--paragrafos);
-    padding: 10px;
-    text-align: left;
+    padding: 10px 20px;
+    width: 95.7%;
+    border: 2px solid purple;
 }
 
 
 aside{
     background-color: #98F5AF;
-    padding-bottom: 30px;  
 
+    box-sizing: content-box; 
+    width: 100%;
 }
 aside #contatos{
     display: flex;
     justify-content: space-between;
-    padding: 30px 80px 20px 50px;
+    margin: 0px 20px;
+    
+    box-sizing: border-box;
+    width: 95%;
 }
 aside #contatos #logo img{
     width: 110px; height: 110px;
-    margin-top: 40%;
-    margin-left: 140%;
+    margin-top: 20%;
+    padding: 20px;
 }
 
 aside #contatos .unidades{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin-top: 2%;
-    margin-left: 10%;
+
+    box-sizing: border-box;
+}
+aside #contatos .unidades div{
+    padding: 10px 40px;
 }
 aside #contatos .unidades h1{
-    font: 600 1.1em var(--titulos);
-    padding-bottom: 10px;
-    text-align: center;
+    font: 100 2em var(--titulos);
+    background-image: linear-gradient(to right, #62C87B, white);
 }
 aside #contatos .unidades p{
-    font: 100 0.8em var(--paragrafos);
-    width: 300px;
+    font: 100 0.9em var(--paragrafos);
+    width: 100%;
     padding: 5px;
     text-align: center;
 }
 aside #contatos .unidades img{
-    width: 25px; height: 25px;
+    width: 25px; 
+    height: 25px;
 }
 
 aside #contatos .sociais{
-    margin-right: 90px;
-    margin-top: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 5%;
+    padding: 15px;
 }
 aside #contatos .sociais h1{
-    font: 600 1em var(--titulos);
-    margin-left: -20px;
+    font-family: var(--titulos);
+    font: 100;
 }
 aside #contatos .sociais img{
     width: 35px; height: 35px;
-    margin-top: 10px;
+    padding-top: 10px;
 }
 aside #contatos .sociais a{
     display: inline-flex;
 }
 
 
-.scroll-top {
+aside .scroll-top {
     position: fixed;
-    bottom: 35px;
+    bottom: 40px;
     right: 30px;
 }
 #botao-top {
@@ -263,7 +280,7 @@ aside #contatos .sociais a{
 }
 
 
-footer{
+footer{                     /*De todos os sites*/
     padding: 10px;
     background-color: #62C87B;
 }
