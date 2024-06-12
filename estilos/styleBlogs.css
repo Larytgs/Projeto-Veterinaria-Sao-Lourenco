@@ -132,7 +132,6 @@ main .blogTextos{                  /*Esse é do site principal blog-pets (FIXO)*
     display: flex;
 
     box-sizing: content-box;
-    border: 2px solid red;
     width: 100%;
 }
 main #texto{      
@@ -140,7 +139,6 @@ main #texto{
     border-radius: 20px 1px 40px 1px;
 
     box-sizing: border-box;
-    border: 2px solid blue;
     width: 100%;
 
     margin: 15px;
@@ -176,12 +174,10 @@ main #textos{                 /*Esse é dos proximos blogs (FIXO)*/
     padding: 0%;
 
     box-sizing: content-box;
-    border: 2px solid red;
     width: 99.6%;
 }
 main #textos div{
     box-sizing: border-box;
-    border: 2px solid yellow;
     width: 100%;
     
     text-align: center;
