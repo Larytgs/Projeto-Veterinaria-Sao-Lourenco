@@ -420,14 +420,14 @@
         display: none;
     }
 
-    aside .scroll-top{
+    /*aside .scroll-top{
         display: none;
         margin-right: 5px;
 
     }
     .scroll-top img{
         width: 40px;
-    }
+    }*/
 }
 
 @media all and (min-width: 320px ) and (max-width: 449px) { /*para celular menores*/
@@ -554,12 +554,12 @@
         display: none;
     }
 
-    aside .scroll-top{
+    /*aside .scroll-top{
         display: none;
         margin-right: 5px;
 
     }
     .scroll-top img{
         width: 40px;
-    }
+    }*/
 }
