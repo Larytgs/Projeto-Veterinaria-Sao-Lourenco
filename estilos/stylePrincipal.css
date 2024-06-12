@@ -86,10 +86,10 @@ main h2{
     font: 100 2em var(--titulos);
     background-image: linear-gradient(to right, #62C87B, white);
 }
-main p{
-    font: 100 1em var(--paragrafos);
+main h3{
+    font: 100 2em var(--titulos);
 }
-main ul li{
+main p{
     font: 100 1em var(--paragrafos);
 }
 main #primeiraimagem img{
@@ -190,10 +190,9 @@ main #saude img{
 }
 main #saude h2{
     margin: 5px;
-    border: 2px solid red;
 }
 main #saude h3{
-    padding: 200px 20px 0px;
+    padding: 170px 30px 0px 30px;
 }
 main #saude p{
     width: 100%;
@@ -256,6 +255,7 @@ main #texto5 #especialistas p{
 main #texto5 #especialistas ul{
     list-style-position: inside; /*deixar a lista organizada*/
     margin-top: 20px;
+    font: 100 1em var(--paragrafos);
 }
 main #texto5 p{
     padding: 20px 30px;
