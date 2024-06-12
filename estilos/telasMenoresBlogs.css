@@ -354,6 +354,10 @@
         text-decoration: underline;
     }
 
+    /*main{
+        padding: 50px 0px;
+        background-color: #98F5AF;
+    }*/
     main .primeiraimagemNONE{
         display: none;
     }
@@ -389,6 +393,7 @@
     aside #contatos{
         margin: 10px;
         width: 95%;
+        padding: 50px 0px;
     }
     aside #contatos .unidades{
         display: inline;
