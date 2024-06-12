@@ -150,7 +150,21 @@
         top: 290px;
     }
 
-
+    main #texto{          /*Esse é do site principal blog-pets (FIXO)*/
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0%;
+        margin: 5px;
+        margin-bottom: 20px;
+    }
+    main #foto{
+        width: 100%; height: 200px;
+    }
+    main p{
+        padding: 0%;
+        width: 100%;
+        margin: 15px 0px;
+    }
 
     aside #contatos #logo img{
         display: none;
