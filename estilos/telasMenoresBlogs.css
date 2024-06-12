@@ -177,7 +177,7 @@
         overflow-x: hidden;
     }
 
-    header{
+    header #principal{
         display: flex;
         justify-content: space-between;
     }
@@ -197,8 +197,8 @@
     header #menuResponsivo img{
         width: 30px; height: 30px;
         cursor: pointer;
-        margin-top: 30px;
-        margin-right: 20px;
+        margin-top: 35px;
+        margin-right: 40px;
     }
     header #menuResponsivo #menu{
         display: none;
@@ -285,12 +285,16 @@
 
 }
 
-@media all and (min-width: 320px ) and (max-width: 529px) { /*para celular*/
+@media all and (min-width: 450px ) and (max-width: 529px) { /*para celular*/
 
     body{
         overflow-x: hidden;
     }
 
+    header #principal{
+        display: flex;
+        justify-content: space-between;
+    }
     header #logo img{
         width: 70px; height: 70px;
     }
@@ -306,7 +310,138 @@
     header #menuResponsivo img{
         width: 30px; height: 30px;
         cursor: pointer;
-        margin-top: 20px;
+        margin-top: 25px;
+        margin-right: 30px;
+    }
+    header #menuResponsivo #menu{
+        display: none;
+    }
+    header #menuResponsivo:hover #menu{
+        display: block;
+        position: absolute;
+
+        background-color: #025B18;
+        height: 150px; width: 130px;
+        margin-top: 0%;
+        margin-left: -20%;
+        text-align: center;
+    }
+    #menu a{
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        width: 100%;
+        padding-top: 10px;
+        font: 100 0.9em var(--paragrafos);
+        color: white;
+    }
+    #menu a:hover{
+        text-decoration: underline;
+    }
+
+    main .primeiraimagemNONE{
+        display: none;
+    }
+    main .blogTextos{                  /*Esse é do site principal blog-pets (FIXO)*/
+        display: inline-block;
+    
+        box-sizing: content-box;
+        width: 98%;
+    }
+    main #texto{      
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0%;
+        margin-bottom: 20px;
+    }
+    main #foto{
+        width: 100%;
+    }
+    main p{
+        padding: 0%;
+        width: 100%;
+        margin: 15px 0px;
+    }
+
+    main #textos{                 /*Esse é dos proximos blogs (FIXO)*/    
+        box-sizing: content-box;
+        width: 99.5%;
+    }
+    main #textos p{
+        width: 90.5%;
+    }
+
+    aside #contatos{
+        margin: 10px;
+        width: 95%;
+    }
+    aside #contatos .unidades{
+        display: inline;
+        text-align: center;
+
+        box-sizing: border-box;
+        width: 100%;   /*alinhar a div de dentro*/
+        padding: 0%;
+    } 
+    aside #contatos #logo img{
+        display: none;
+    }
+       
+    aside #contatos .unidades div{
+        margin: 0%;
+        padding: 0%;
+        padding-top: 15px;
+    }   
+    aside #contatos .unidades img{
+        width: 20px; height: 20px;
+    }
+    aside #contatos .unidades h2{
+        text-align: center;
+        padding-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    aside #contatos .sociais{
+        display: none;
+    }
+
+    aside .scroll-top{
+        display: none;
+        margin-right: 5px;
+
+    }
+    .scroll-top img{
+        width: 40px;
+    }
+}
+
+@media all and (min-width: 320px ) and (max-width: 449px) { /*para celular menores*/
+
+    body{
+        overflow-x: hidden;
+    }
+
+    header #principal{
+        display: flex;
+        justify-content: space-between;
+    }
+    header #logo img{
+        width: 70px; height: 70px;
+    }
+    header .menu{
+        display: none;
+    }
+    header .sociais img{
+        display: none;
+    }
+    header #menuResponsivo{
+        display: block;
+    }
+    header #menuResponsivo img{
+        width: 30px; height: 30px;
+        cursor: pointer;
+        margin-top: 25px;
         margin-right: 20px;
     }
     header #menuResponsivo #menu{
@@ -339,12 +474,37 @@
     main .primeiraimagemNONE{
         display: none;
     }
+    main .blogTextos{                  /*Esse é do site principal blog-pets (FIXO)*/
+        display: inline-block;
+    
+        box-sizing: content-box;
+        width: 98%;
+    }
+    main #texto{      
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0%;
+        margin-bottom: 20px;
+    }
+    main #foto{
+        width: 100%; height: 200px;
+    }
+    main p{
+        padding: 0%;
+        width: 100%;
+        margin: 15px 0px;
+    }
 
-
-
-
-
-
+    main #textos{                 /*Esse é dos proximos blogs (FIXO)*/    
+        box-sizing: content-box;
+        width: 99.5%;
+    }
+    main #textos img{
+        width: 100%; 
+    }
+    main #textos p{
+        width: 88%;
+    }
 
     aside #contatos{
         margin: 10px;
