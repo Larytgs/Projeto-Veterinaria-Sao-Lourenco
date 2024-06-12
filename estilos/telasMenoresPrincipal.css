@@ -97,7 +97,7 @@
         position: absolute;
 
         background-color: #025B18;
-        height: 130px; width: 120px;
+        height: 115px; width: 120px;
         margin-top: 0%;
         margin-left: -11%;
         text-align: center;
@@ -108,7 +108,7 @@
         text-decoration: none;
         cursor: pointer;
         width: 100%;
-        padding-top: 10px;
+        padding-top: 8px;
         font: 100 0.9em var(--paragrafos);
         color: white;
     }
@@ -237,7 +237,7 @@
         position: absolute;
 
         background-color: #025B18;
-        height: 130px; width: 110px;
+        height: 115px; width: 110px;
         margin-top: 0%;
         margin-left: -15%;
         text-align: center;
@@ -248,7 +248,7 @@
         text-decoration: none;
         cursor: pointer;
         width: 100%;
-        padding-top: 10px;
+        padding-top: 8px;
         font: 100 0.9em var(--paragrafos);
         color: white;
     }
