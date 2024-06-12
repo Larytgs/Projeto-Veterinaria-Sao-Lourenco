@@ -89,6 +89,9 @@ main h2{
 main p{
     font: 100 1em var(--paragrafos);
 }
+main ul li{
+    font: 100 1em var(--paragrafos);
+}
 main #primeiraimagem img{
     width: 100%;
     border-bottom-left-radius: 10px;

@@ -37,7 +37,7 @@
     }
 
     #texto3 #saude h3{
-        margin-top: 550%;
+        margin: 0%;
     }
     #texto4 #cuidados h2{
         width: 55%;
@@ -369,7 +369,7 @@
         margin: 10px;
     }
     main #saude h3{
-        margin: auto;
+        padding: 2%;
     }
 
     main #texto4{
