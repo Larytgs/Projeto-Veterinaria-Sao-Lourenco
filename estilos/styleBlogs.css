@@ -169,12 +169,12 @@ main #texto a{
 main #textos{                 /*Esse é dos proximos blogs (FIXO)*/
     background-color: #62C87B;
     border-radius: 10px;
-    padding: 30px 50px;
     margin: 0%;
     padding: 0%;
+    padding-bottom: 50px;
 
     box-sizing: content-box;
-    width: 99.6%;
+    width: 99.9%;
 }
 main #textos div{
     box-sizing: border-box;
@@ -200,7 +200,7 @@ main #textos p{
 
 aside{
     background-color: #98F5AF;
-    padding: 50px 0px;
+    padding: 10px 0px;
 
     box-sizing: content-box; 
     width: 100%;
