@@ -435,6 +435,9 @@
         padding: 0%;
         padding: 15px 20px;
     }
+    main #texto6 h1{
+        margin: 0px 10px;
+    }
     main #carteirinha{
         display: flex;
     }
