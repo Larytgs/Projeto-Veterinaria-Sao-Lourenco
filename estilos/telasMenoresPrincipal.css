@@ -256,6 +256,9 @@
         text-decoration: underline;
     }
 
+    main{
+        overflow-x: hidden;
+    }
 
     main h1{
         font: 100 2em var(--titulos);
