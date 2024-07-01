@@ -345,7 +345,7 @@
         columns: 1;
 
         box-sizing: border-box;
-        width: 99%;  /*alinhar a div de dentro*/
+        width: 95%;  /*alinhar a div de dentro*/
     }
     main #texto2-1 p{
         text-align: center;
@@ -382,7 +382,7 @@
         padding: 15px 20px;
     }
     main #texto4 h1{
-        margin: 0px 15px;
+        margin: 0px 20px;
     }
     main #texto4 h2{
         margin-top: 5px;
@@ -393,11 +393,12 @@
         columns: 1;
 
         box-sizing: border-box;
-        width: 104%;    /*alinhar a div de dentro*/
+        width: 97%;    /*alinhar a div de dentro*/
         padding: 10px 15px;
     }
     main #cuidados p{
         text-align: center;
+
     }
 
     
@@ -436,10 +437,12 @@
         margin-top: 20px;
         margin-bottom: 10px;
         padding: 0%;
-        padding: 15px 20px;
+
+        width: 97%;    /*alinhar a div de dentro*/
+        padding: 10px 15px;
     }
     main #texto6 h1{
-        margin: 0px 10px;
+        margin: 0px 20px;
     }
     main #carteirinha{
         display: flex;
