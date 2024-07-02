@@ -25,6 +25,8 @@ body{
 header{
     position: sticky; /*grudavel*/
     top: -1px;
+    z-index: 1; /*Assim, ele ficará na frente de tds*/
+
     background-color: #98F5AF;
     padding: 5px;
     height: 150%;
@@ -288,9 +290,12 @@ main #carteirinha p{
     text-align: left;
 }
 main #carteirinha img{
-    width: 300px; 
+    width: 150px; 
+    padding: 5%;
     margin-top: 25px;
     padding-left: 10%;
+
+    transform: rotate(10deg);
 }
 
 
