@@ -14,6 +14,9 @@
     margin: 0px;
     padding: 0px;
 }
+html{
+    scroll-behavior: smooth; /*rolagem suave*/
+}
 
 body{
     background-image: linear-gradient(to top, #025B18, #1F8F3B, #62C87B, #98F5AF);
