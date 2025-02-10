@@ -62,6 +62,9 @@ header .menu a:hover{
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.795);
 }
 
+header .sociais a{
+    cursor: pointer;
+}
 header .sociais img{
     width: 35px; height: 35px;
     margin-top: 30px;
@@ -71,6 +74,7 @@ header #menuResponsivo{
     display: none;
 }
 
+/*Main geral dos Blogs*/
 main{
     min-width: 300px;
     max-width: 1000px;
@@ -99,7 +103,11 @@ main .primeiraimagem h1{
     left: 250px;
     top: 200px;
 }
-main .primeiraimagem #home h1{ /*Esse é do site principal blog-pets  -  HOME*/
+
+
+
+/*Esse é do site principal blog-pets  -  HOME*/
+main .primeiraimagem #home h1{ 
     position: absolute;
     font: 100 3em var(--titulos);
     text-decoration: underline;
@@ -108,30 +116,8 @@ main .primeiraimagem #home h1{ /*Esse é do site principal blog-pets  -  HOME*/
     top: 350px;
 }
 
-main .primeiraimagem #nome{ /*Esse é dos proximos blogs  -  NOME PRINCIPAL*/
-    position: absolute;
-    font: 100 3em var(--titulos);
-    text-align: left;
-    color: #98F5AF;
-    left: 200px;
-    top: 200px;
-}
-main .primeiraimagem #opc1 h2{ /*Esse é dos proximos blogs  -  HOME*/
-    position: absolute;
-    font: 100 2.5em var(--titulos);
-    color: #98F5AF;
-    left: 190px;
-    top: 350px;
-}
-main .primeiraimagem #opc2 h2{ /*Esse é dos proximos blogs   - BLOGS*/
-    position: absolute;
-    font: 100 2.5em var(--titulos);
-    color: #98F5AF;
-    left: 280px;
-    top: 350px;
-}
-
-main .blogTextos{                  /*Esse é do site principal blog-pets (FIXO)*/
+/*(FIXO)*/
+main .blogTextos{                  
     display: flex;
 
     box-sizing: content-box;
@@ -168,8 +154,31 @@ main #texto a{
 }
 
 
-
-main #textos{                 /*Esse é dos proximos blogs (FIXO)*/
+/*Esse é dos proximos blogs  -  NOME PRINCIPAL*/
+main .primeiraimagem #nome{ 
+    position: absolute;
+    font: 100 3em var(--titulos);
+    text-align: left;
+    color: #98F5AF;
+    left: 200px;
+    top: 200px;
+}
+main .primeiraimagem #opc1 h2{ /*Esse é dos proximos blogs  -  'HOME' */
+    position: absolute;
+    font: 100 2.5em var(--titulos);
+    color: #98F5AF;
+    left: 190px;
+    top: 350px;
+}
+main .primeiraimagem #opc2 h2{ /*Esse é dos proximos blogs   - 'BLOGS' */
+    position: absolute;
+    font: 100 2.5em var(--titulos);
+    color: #98F5AF;
+    left: 280px;
+    top: 350px;
+}
+/*(FIXO)*/
+main #textos{                 
     background-color: #62C87B;
     border-radius: 10px;
     margin: 0%;
@@ -201,6 +210,7 @@ main #textos p{
 }
 
 
+/*geral dos Blogs*/
 aside{
     background-color: #98F5AF;
     padding: 10px 0px;
