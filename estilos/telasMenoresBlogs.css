@@ -464,30 +464,7 @@
         margin-right: 20px;
     }
     header #menuResponsivo #menu{
-        display: none;
-    }
-    header #menuResponsivo:hover #menu{
-        display: block;
-        position: absolute;
-
-        background-color: #025B18;
-        height: 125px; width: 115px;
-        margin-top: 0%;
-        margin-left: -15%;
-        text-align: center;
-    }
-    #menu a{
-        position: relative;
-        display: inline-block;
-        text-decoration: none;
-        cursor: pointer;
-        width: 100%;
-        padding-top: 8px;
-        font: 100 0.9em var(--paragrafos);
-        color: white;
-    }
-    #menu a:hover{
-        text-decoration: underline;
+        /*esta no menoresPrincipal*/
     }
 
     main .primeiraimagemNONE{
