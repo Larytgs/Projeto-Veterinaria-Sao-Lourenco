@@ -466,6 +466,10 @@
     header #menuResponsivo #menu{
         /*esta no menoresPrincipal*/
     }
+    header #menuResponsivo:hover #menu{
+        height: 125px; width: 115px;
+        margin-left: -25%;
+    }
 
     main .primeiraimagemNONE{
         display: none;
