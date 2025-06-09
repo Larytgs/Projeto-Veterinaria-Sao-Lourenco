@@ -2,7 +2,7 @@
 
 - Veterinária São Lourenço
 
-<img src="img/"></img>
+<img src="imagens/"></img>
 
 Tecnologias Utilizadas
 • HTML5: Estruturação do conteúdo, garantindo semântica e acessibilidade.
