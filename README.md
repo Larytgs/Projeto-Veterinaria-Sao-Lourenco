@@ -2,7 +2,7 @@
 
 - Veterinária São Lourenço
 
-<img src="imagens/"></img>
+<img src="imagens/veterinaria.png"></img>
 
 Tecnologias Utilizadas
 • HTML5: Estruturação do conteúdo, garantindo semântica e acessibilidade.
